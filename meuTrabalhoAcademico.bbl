@@ -1,0 +1,64 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem[Abadi et al. 2016]{AbadiABBCCCDDDG16}
+\abntrefinfo{Abadi et al.}{ABADI et al.}{2016}
+{ABADI, M. et al. Tensorflow: Large-scale machine learning on heterogeneous
+  distributed systems.
+\textbf{CoRR}, abs/1603.04467, 2016.
+Dispon{\'\i}vel em: \url{http://arxiv.org/abs/1603.04467}.}
+
+\bibitem[Cass 2017]{Cass2017}
+\abntrefinfo{Cass}{CASS}{2017}
+{CASS, S. {The 2017 Top Programming Languages}.
+\textbf{IEEE Spectrum}, 2017.
+Dispon{\'\i}vel em:
+  \url{https://spectrum.ieee.org/computing/software/the-2017-top-programming-languages}.}
+
+\bibitem[{GNU Operating System} 2017]{GNUOperatingSystem}
+\abntrefinfo{{GNU Operating System}}{{GNU Operating System}}{2017}
+{{GNU Operating System}. \textbf{{Proprietary Software Is Often Malware}}.
+  2017.
+Dispon{\'\i}vel em: \url{https://www.gnu.org/proprietary/proprietary.html}.}
+
+\bibitem[Inc 2012]{Inc2012}
+\abntrefinfo{Inc}{INC}{2012}
+{INC, F. S.~F. \textbf{{What is free software?}} 2012.
+Dispon{\'\i}vel em: \url{http://www.gnu.org/philosophy/free-sw.html}.}
+
+\bibitem[Lessig e Stallman 2002]{Lessig2002}
+\abntrefinfo{Lessig e Stallman}{LESSIG; STALLMAN}{2002}
+{LESSIG, L.; STALLMAN, R. \textbf{{Free Software, Free Society: Selected Essays
+  of Richard M. Stallman}}. [s.n.], 2002. Dispon{\'\i}vel em:
+  \url{https://www.gnu.org/philosophy/fsfs/rms-essays.pdf}.}
+
+\bibitem[Szegedy et al. 2015]{szegedy2015going}
+\abntrefinfo{Szegedy et al.}{SZEGEDY et al.}{2015}
+{SZEGEDY, C. et al. Going deeper with convolutions. In:  \textbf{Proceedings of
+  the IEEE conference on computer vision and pattern recognition}. [S.l.:
+  s.n.], 2015. p.~1--9.}
+
+\bibitem[Tate et al. 2013]{Tate2013}
+\abntrefinfo{Tate et al.}{TATE et al.}{2013}
+{TATE, J. et al. \textbf{{Edward Snowden says motive behind leaks was to expose
+  ‘surveillance state'}}. 2013.
+Dispon{\'\i}vel em:
+  \url{https://www.washingtonpost.com/politics/edward-snowden-says-motive-behind-leaks-was-to-expose-surveillance-state/2013/06/09/aa3f0804-d13b-11e2-a73e-826d299ff459{\\_}story.html?tid=pm{\\_}politics{\\_}pop{\&}utm{\\_}ter}.}
+
+\bibitem[Wickham 2015]{Wickham2015}
+\abntrefinfo{Wickham}{WICKHAM}{2015}
+{WICKHAM, H. \textbf{{Advanced R}}. CRC Press, 2015. Dispon{\'\i}vel em:
+  \url{https://englianhu.files.wordpress.com/2016/05/advanced-r.pdf}.}
+
+\bibitem[Williams e Stallman 2010]{Williams}
+\abntrefinfo{Williams e Stallman}{WILLIAMS; STALLMAN}{2010}
+{WILLIAMS, S.; STALLMAN, R.~M. {Free as in Freedom (2.0): Richard Stallman and
+  the Free Software Revolution Second edition revisions}.
+2010.
+Dispon{\'\i}vel em: \url{https://sagitter.fedorapeople.org/faif-2.0.pdf}.}
+
+\end{thebibliography}
