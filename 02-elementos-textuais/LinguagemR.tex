@@ -30,16 +30,31 @@ Esse interpretador foi definido para trabalhar com o conceito de \textit{ambient
 	\label{fig:R_Envs}
 \end{figure}
 
-Em linhas gerais, o ambiente onde o usuário trabalha é chamado de \textit{globalenv}, as funções da linguagem \textit{R} estão definidas no ambiente de \textit{baseenv} e os gerenciadores de memória, o coletor de lixo e os demais controladores do próprio interpretador estão ambiente \textit{emptyenv}.
+Em linhas gerais, o ambiente onde o usuário trabalha é chamado de \textit{globalenv}, as funções da linguagem \textit{R} estão definidas no ambiente de \textit{baseenv} e os gerenciadores de memória, o coletor de lixo e os demais controladores do próprio interpretador estão no ambiente \textit{emptyenv}.
 
 A linguagem \textit{R}, interpreta as funções de forma a percorrer os ambientes hierarquicamente. Quando o usuário chama o interpretador, ele inicialmente procura as funções no \textit{globalenv}, quando não encontra, ele busca recursivamente nos ambientes \textit{pai}.
 
-Todos os ambientes entre o \textit{globalenv} e o \textit{baseenv}, são chamados de \textit{ambientes de pacote}. Esses pacotes foram a forma encontrada pelos desenvolvedores da linguagem para permitir que a comunidade contribuísse com o avanço da linguagem, sem afetar as funções base.
+Todos os ambientes entre o \textit{globalenv} e o \textit{baseenv}, são chamados de \textit{ambientes de pacote}. 
+O ultimo pacote a ser invocado é chamado de pai do \textit{globalenv}, e é filho do penúltimo pacote invocado. 
 
- 
-
-
-
+ Esses pacotes foram a forma encontrada pelos desenvolvedores da linguagem para permitir que a comunidade contribuísse com o avanço da linguagem, sem afetar as funções base. Além disso, esse processo recursivo de busca de \textit{ambientes} é o que permite os pacotes da linguagem R utilizarem uns aos outros.
 
 \section{A comunidade R e seus Pacotes}
+A linguagem R surgiu dentro do meio universitário como uma alternativa à softwares proprietários. Dessa forma, a expansão da comunidade de usuários ocorreu inicialmente da mesma maneira, no âmbito acadêmico e por meio softwares e pacotes livres. 
 
+Contudo, hoje o R possui grande aporte de empresas privadas, como Google e AT\&T. 
+
+
+
+Atualmente o repositório CRAN possui mais de $11800$ pacotes, que implementam modelos dos mais variados, incluindo mas não limitado à gráficos, biológicos, estatísticos, ecológicos e de aprendizado de maquina. É importante ressaltar que todos os pacotes devem ter documentação, código aberto e possuírem licença livre. 
+
+Esses padrões definidos pela comunidade têm se mostrado extremamente efetivos, no sentido da popularização da criação de pacotes, vide figura \ref{fig:RNPackages}.
+
+\begin{figure}[!htb]
+	\centering
+	\caption{Número de pacotes disponíveis no CRAN ao longo do tempo} 
+	\includegraphics[width=0.8\textwidth]{./04-figuras/NRPackages}
+	\fonte{\href{https://cran.r-project.org/web/packages/available_packages_by_date}
+		{https://cran.r-project.org/web/packages/available\underline{ }packages\underline{ }by\underline{ }date}}
+	\label{fig:RNPackages}
+\end{figure}

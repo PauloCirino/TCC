@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.6.26)  10 NOV 2017 08:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.6.26)  14 NOV 2017 09:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1797,23 +1797,36 @@ LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 
 
 ]
-<./04-figuras/R-envs.png, id=239, 907.39pt x 222.8325pt>
+<./04-figuras/R-envs.png, id=241, 907.39pt x 222.8325pt>
 File: ./04-figuras/R-envs.png Graphic file (type png)
 
 <use ./04-figuras/R-envs.png>
 Package pdftex.def Info: ./04-figuras/R-envs.png used on input line 28.
 (pdftex.def)             Requested size: 364.00139pt x 89.38983pt.
-) [8pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-1}) has been already used, duplicate ignored
+ [8pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.41 
+      <./04-figuras/R-envs.png>]
+<./04-figuras/NRPackages.png, id=252, 382.42876pt x 401.5pt>
+File: ./04-figuras/NRPackages.png Graphic file (type png)
+
+<use ./04-figuras/NRPackages.png>
+Package pdftex.def Info: ./04-figuras/NRPackages.png used on input line 56.
+(pdftex.def)             Requested size: 364.00139pt x 382.17024pt.
+) [9] [10pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.3.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.190 \include{./02-elementos-textuais/LinguagemR}
-                                                   <./04-figuras/R-envs.png>]
+                                                   <./04-figuras/NRPackages.png
+>]
 \openout2 = `./02-elementos-textuais/AprendizadoDeMaquinas.aux'.
 
-
-(./02-elementos-textuais/AprendizadoDeMaquinas.tex) [9
+ (./02-elementos-textuais/AprendizadoDeMaquinas.tex) [11
 
 
 
@@ -1821,7 +1834,7 @@ l.190 \include{./02-elementos-textuais/LinguagemR}
 \openout2 = `./02-elementos-textuais/EstatisticasDeTeste.aux'.
 
 
-(./02-elementos-textuais/EstatisticasDeTeste.tex) [10
+(./02-elementos-textuais/EstatisticasDeTeste.tex) [12
 
 
 
@@ -1829,7 +1842,7 @@ l.190 \include{./02-elementos-textuais/LinguagemR}
 \openout2 = `./02-elementos-textuais/OPacote.aux'.
 
 
-(./02-elementos-textuais/OPacote.tex) [11
+(./02-elementos-textuais/OPacote.tex) [13
 
 
 
@@ -1845,24 +1858,24 @@ l.190 \include{./02-elementos-textuais/LinguagemR}
 
 bibitemlist
 
-Underfull \hbox (badness 6825) in paragraph at lines 51--51
+Underfull \hbox (badness 6825) in paragraph at lines 57--57
 \T1/phv/b/n/12 veil-lance state'\T1/phv/m/n/12 (+20) . 2013. Dis-po-ní-vel em: 
 [][]$<[]https : / / www . washingtonpost . com / politics /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
 \T1/phv/m/n/12 (+20) edward-[]snowden-[]says-[]motive-[]behind-[]leaks-[]was-[]
 to-[]expose-[]surveillance-[]state / 2013 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
 \T1/phv/m/n/12 (+20) 06 / 09 / aa3f0804-[]d13b-[]11e2-[]a73e-[]826d299^^[459{\ 
 _ }story . html ? tid = pm{\ _ }politics{\ _
  []
 
-)) [12
+)) [14
 
 
 
@@ -1918,11 +1931,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 213.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 25782 strings out of 493014
- 451792 string characters out of 6133351
- 618035 words of memory out of 5000000
- 28381 multiletter control sequences out of 15000+600000
- 83907 words of font info for 210 fonts, out of 8000000 for 9000
+ 25822 strings out of 493014
+ 452458 string characters out of 6133351
+ 618303 words of memory out of 5000000
+ 28410 multiletter control sequences out of 15000+600000
+ 85695 words of font info for 220 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,12n,54p,757b,2886s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc
@@ -1932,10 +1945,10 @@ usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/loca
 l/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texli
 ve/2016/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on meuTrabalhoAcademico.pdf (26 pages, 259686 bytes).
+Output written on meuTrabalhoAcademico.pdf (28 pages, 276455 bytes).
 PDF statistics:
- 471 PDF objects out of 1000 (max. 8388607)
- 427 compressed objects within 5 object streams
- 97 named destinations out of 1000 (max. 500000)
- 32111 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 488 PDF objects out of 1000 (max. 8388607)
+ 440 compressed objects within 5 object streams
+ 101 named destinations out of 1000 (max. 500000)
+ 34164 words of extra memory for PDF output out of 35830 (max. 10000000)
 

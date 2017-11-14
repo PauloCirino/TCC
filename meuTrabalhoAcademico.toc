@@ -13,21 +13,21 @@
 \contentsline {subsection}{\numberline {2.3.3}Software Livre \IeC {\`a} Favor da Acessibilidade da Educa\IeC {\c c}\IeC {\~a}o e Conhecimento}{5}{subsection.2.3.3}
 \contentsline {chapter}{\chapternumberline {3}Linguagem de Programa\IeC {\c c}\IeC {\~a}o R}{7}{chapter.3}
 \contentsline {section}{\numberline {3.1}Organiza\IeC {\c c}\IeC {\~a}o da Linguagem de Programa\IeC {\c c}\IeC {\~a}o \textit {R}}{7}{section.3.1}
-\contentsline {section}{\numberline {3.2}A comunidade R e seus Pacotes}{8}{section.3.2}
-\contentsline {chapter}{\chapternumberline {4}Aprendizado de M\IeC {\'a}quina}{9}{chapter.4}
-\contentsline {section}{\numberline {4.1}Aprendizado Supervisionado}{9}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Decisor Bayesiano}{9}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}\IeC {\'A}rvores de Decis\IeC {\~a}o}{9}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Vizinhos Mais Pr\IeC {\'o}ximos}{9}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Redes Neurais Artificiais}{9}{subsection.4.1.4}
-\contentsline {subsection}{\numberline {4.1.5}Maquinas de Vetores de Suporte}{9}{subsection.4.1.5}
-\contentsline {section}{\numberline {4.2}Aprendizado N\IeC {\~a}o Supervisionado}{9}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}K M\IeC {\'e}dias}{9}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Cluster Aglomerativo}{9}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}M\IeC {\'e}tricas de Aprendizado}{9}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}M\IeC {\'e}tricas Supervisionadas}{9}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}M\IeC {\'e}tricas N\IeC {\~a}o Supervisionadas}{9}{subsection.4.3.2}
-\contentsline {chapter}{\chapternumberline {5}Estat\IeC {\'\i }sticas de Teste}{10}{chapter.5}
-\contentsline {chapter}{\chapternumberline {6}O Pacote}{11}{chapter.6}
-\contentsline {chapter}{Refer\^encias}{12}{section*.14}
+\contentsline {section}{\numberline {3.2}A comunidade R e seus Pacotes}{9}{section.3.2}
+\contentsline {chapter}{\chapternumberline {4}Aprendizado de M\IeC {\'a}quina}{11}{chapter.4}
+\contentsline {section}{\numberline {4.1}Aprendizado Supervisionado}{11}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Decisor Bayesiano}{11}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}\IeC {\'A}rvores de Decis\IeC {\~a}o}{11}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Vizinhos Mais Pr\IeC {\'o}ximos}{11}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Redes Neurais Artificiais}{11}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.5}Maquinas de Vetores de Suporte}{11}{subsection.4.1.5}
+\contentsline {section}{\numberline {4.2}Aprendizado N\IeC {\~a}o Supervisionado}{11}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}K M\IeC {\'e}dias}{11}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Cluster Aglomerativo}{11}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}M\IeC {\'e}tricas de Aprendizado}{11}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}M\IeC {\'e}tricas Supervisionadas}{11}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}M\IeC {\'e}tricas N\IeC {\~a}o Supervisionadas}{11}{subsection.4.3.2}
+\contentsline {chapter}{\chapternumberline {5}Estat\IeC {\'\i }sticas de Teste}{12}{chapter.5}
+\contentsline {chapter}{\chapternumberline {6}O Pacote}{13}{chapter.6}
+\contentsline {chapter}{Refer\^encias}{14}{section*.14}
 \vspace {\cftbeforepartskip }
