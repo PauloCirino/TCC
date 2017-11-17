@@ -12,15 +12,17 @@
 \contentsline {subsection}{\numberline {2.3.2}Software Livre \IeC {\`a} Favor do Avan\IeC {\c c}o da Computa\IeC {\c c}\IeC {\~a}o}{5}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Software Livre \IeC {\`a} Favor da Acessibilidade da Educa\IeC {\c c}\IeC {\~a}o e Conhecimento}{6}{subsection.2.3.3}
 \contentsline {chapter}{\chapternumberline {3}Linguagem de Programa\IeC {\c c}\IeC {\~a}o R}{8}{chapter.3}
-\contentsline {section}{\numberline {3.1}Organiza\IeC {\c c}\IeC {\~a}o da Linguagem de Programa\IeC {\c c}\IeC {\~a}o \textit {R}}{8}{section.3.1}
-\contentsline {section}{\numberline {3.2}A comunidade R e seus Pacotes}{10}{section.3.2}
+\contentsline {section}{\numberline {3.1}Hist\IeC {\'o}ria da Linguagem R}{8}{section.3.1}
+\contentsline {section}{\numberline {3.2}Organiza\IeC {\c c}\IeC {\~a}o da Linguagem de Programa\IeC {\c c}\IeC {\~a}o \textit {R}}{9}{section.3.2}
+\contentsline {section}{\numberline {3.3}A comunidade R e seus Pacotes}{10}{section.3.3}
 \contentsline {chapter}{\chapternumberline {4}Aprendizado de M\IeC {\'a}quina}{12}{chapter.4}
-\contentsline {section}{\numberline {4.1}Aprendizado Supervisionado}{12}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Problemas de Classifica\IeC {\c c}\IeC {\~a}o}{13}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Problemas de Regress\IeC {\~a}o}{13}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Aprendizado N\IeC {\~a}o Supervisionado}{13}{section.4.2}
-\contentsline {section}{\numberline {4.3}M\IeC {\'e}tricas de Aprendizado}{13}{section.4.3}
-\contentsline {chapter}{\chapternumberline {5}Estat\IeC {\'\i }sticas de Teste}{14}{chapter.5}
-\contentsline {chapter}{\chapternumberline {6}O Pacote}{15}{chapter.6}
-\contentsline {chapter}{Refer\^encias}{16}{section*.14}
+\contentsline {section}{\numberline {4.1}Formula\IeC {\c c}\IeC {\~a}o e Caracteriza\IeC {\c c}\IeC {\~a}o do Aprendizado de M\IeC {\'a}quina}{12}{section.4.1}
+\contentsline {section}{\numberline {4.2}Aprendizado Supervisionado}{14}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Problemas de Classifica\IeC {\c c}\IeC {\~a}o}{14}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Problemas de Regress\IeC {\~a}o}{14}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Aprendizado N\IeC {\~a}o Supervisionado}{14}{section.4.3}
+\contentsline {section}{\numberline {4.4}M\IeC {\'e}tricas de Aprendizado}{14}{section.4.4}
+\contentsline {chapter}{\chapternumberline {5}Estat\IeC {\'\i }sticas de Teste}{15}{chapter.5}
+\contentsline {chapter}{\chapternumberline {6}O Pacote}{16}{chapter.6}
+\contentsline {chapter}{Refer\^encias}{17}{section*.13}
 \vspace {\cftbeforepartskip }

@@ -1,14 +1,11 @@
 This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: meuTrabalhoAcademico.aux
-A level-1 auxiliary file: ./01-elementos-pre-textuais/dedicatoria.aux
+A level-1 auxiliary file: ./01-elementos-pre-textuais/agradecimentos.aux
 A level-1 auxiliary file: ./01-elementos-pre-textuais/epigrafe.aux
 A level-1 auxiliary file: ./01-elementos-pre-textuais/resumoPt.aux
 A level-1 auxiliary file: ./01-elementos-pre-textuais/resumoEn.aux
 A level-1 auxiliary file: ./01-elementos-pre-textuais/listaFiguras.aux
-A level-1 auxiliary file: ./01-elementos-pre-textuais/listaTabelas.aux
-A level-1 auxiliary file: ./01-elementos-pre-textuais/listaQuadros.aux
-A level-1 auxiliary file: ./01-elementos-pre-textuais/listaAlgoritmos.aux
 A level-1 auxiliary file: ./01-elementos-pre-textuais/listaSiglas.aux
 A level-1 auxiliary file: ./01-elementos-pre-textuais/listaSimbolos.aux
 A level-1 auxiliary file: ./01-elementos-pre-textuais/sumario.aux
@@ -35,54 +32,59 @@ Repeated entry---line 117 of file ./03-elementos-pos-textuais/myRefs.bib
  : @misc{Inc2012
  :              ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 231 of file ./03-elementos-pos-textuais/myRefs.bib
+ : @book{Goodfellow-et-al-2016
+ :                            ,
+I'm skipping whatever remains of this entry
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Warning--campo year vazio ou faltando em RichardStallman
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 16 entries,
+You've used 25 entries,
             6714 wiz_defined-function locations,
-            1280 strings with 12817 characters,
-and the built_in function-call counts, 19765 in all, are:
-= -- 2469
-> -- 251
-< -- 583
-+ -- 722
-- -- 79
-* -- 1129
-:= -- 2385
-add.period$ -- 37
-call.type$ -- 17
-change.case$ -- 108
-chr.to.int$ -- 25
-cite$ -- 9
-duplicate$ -- 2041
-empty$ -- 814
-format.name$ -- 369
-if$ -- 3924
+            1336 strings with 14182 characters,
+and the built_in function-call counts, 31158 in all, are:
+= -- 3729
+> -- 492
+< -- 833
++ -- 1052
+- -- 154
+* -- 1846
+:= -- 3801
+add.period$ -- 76
+call.type$ -- 26
+change.case$ -- 189
+chr.to.int$ -- 40
+cite$ -- 19
+duplicate$ -- 3102
+empty$ -- 1363
+format.name$ -- 719
+if$ -- 6292
 int.to.chr$ -- 6
 int.to.str$ -- 3
-missing$ -- 227
-newline$ -- 53
-num.names$ -- 45
-pop$ -- 270
+missing$ -- 392
+newline$ -- 99
+num.names$ -- 90
+pop$ -- 485
 preamble$ -- 1
-purify$ -- 56
+purify$ -- 89
 quote$ -- 0
-skip$ -- 2407
+skip$ -- 3481
 stack$ -- 1
-substring$ -- 833
-swap$ -- 683
-text.length$ -- 9
+substring$ -- 1268
+swap$ -- 1078
+text.length$ -- 19
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 1
-warning$ -- 0
-while$ -- 67
+warning$ -- 1
+while$ -- 129
 width$ -- 0
-write$ -- 141
-(There was 1 error message)
+write$ -- 282
+(There were 2 error messages)

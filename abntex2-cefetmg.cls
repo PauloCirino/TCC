@@ -35,7 +35,7 @@
       a4paper,					% Tamanho do papel.
 	  sumario=tradicional,		% Seleciona o sumário tradicional
 %  Opções da classe abntex2
-	  %chapter=TITLE,			% Títulos de capítulos convertidos em letras maiúsculas
+	  chapter=TITLE,			% Títulos de capítulos convertidos em letras maiúsculas
 	  %section=TITLE,			% Títulos de seções convertidos em letras maiúsculas
 	  %subsection=TITLE,		% Títulos de subseções convertidos em letras maiúsculas
 	  %subsubsection=TITLE,		% Ttítulos de subsubseções convertidos em letras maiúsculas

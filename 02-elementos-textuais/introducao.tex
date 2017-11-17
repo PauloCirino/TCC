@@ -7,26 +7,35 @@
 
 \section{Justificativa}
 \label{sec:justificativa}
-Um dos principais objetivos de softwares é auxiliar os usuários nos trabalhos com sistemas computacionais. Uma das formas de atingir esse objetivo é automatizando tarefas rotineiras, repetitivas, desinteressantes e que consomem muito tempo. Liberando as pessoas para tarefas mais importantes. 
+Um dos principais objetivos de softwares é auxiliar os usuários nos trabalhos com sistemas computacionais. Uma das formas de atingir esse objetivo é automatizando tarefas rotineiras, repetitivas, desinteressantes e que consomem muito tempo, liberando as pessoas para tarefas mais importantes \cite{Zambiasi2012UmaAA}. 
 
-Uma parte fundamental no ciclo do desenvolvimento de novos algorítimos em aprendizado de máquina é o processo de \textit{benchmarking}. Esse procedimento consiste na comparação do novo método com outros modelos, além é claro de testes estatísticos que permitam extrair conclusões quantitativas e qualitativas.
+Uma parte fundamental no ciclo do desenvolvimento de novos algorítimos em aprendizado de máquina é o processo de \textit{benchmarking}. Esse procedimento consiste na comparação do novo método com outros modelos, além, é claro, de testes estatísticos que permitam extrair conclusões quantitativas e qualitativas.
 
-Realizar \textit{benchmarking} pode se tornar uma tarefa repetitiva e trabalhosa, e consequentemente cara. O engenheiro precisa implementar todos os métodos padrões, ele têm de baixar e pré-processar todas as bases de testes, definir o planejamento e análise dos experimentos, e por fim realizar testes estatísticos e desenho de gráficos para que seja possível extrair suas conclusões.
+Realizar \textit{benchmarking} pode se tornar uma tarefa repetitiva, trabalhosa e consequentemente cara. O engenheiro precisa implementar todos os métodos padrões, baixar e pré-processar todas as bases de testes, definir o planejamento e análise dos experimentos, e por fim, realizar testes estatísticos e desenhos gráficos para que seja possível extrair suas conclusões.
 
-Dessa forma, a automatização da tarefa de \textit{benchmarking} seria benéfica ao engenheiro, no sentido de economizar tempo para realizar tarefas mais importantes. Além disso, uma rotina de teste padronizada é interessante pois permite que seja possível comparar estudos feitos separadamente.
+Dessa forma, a automatização da tarefa de \textit{benchmarking} seria benéfica ao engenheiro no sentido de economizar tempo para realizar tarefas mais importantes. Além disso, uma rotina de teste padronizada é interessante pois faz com que seja possível a comparação de estudos feitos separadamente.
 
 
 \section{Objetivo}
 \label{sec:objetivo}
-Esse trabalho têm como objetivo a criação de um software, que seja capaz de automatizar a tarefa de \textit{benchmarking} para modelos de aprendizado de máquina. 
+Esse trabalho tem como objetivo a criação de um software, que seja capaz de automatizar a tarefa de \textit{benchmarking} para o teste de novos modelos de aprendizado de máquina. 
 
-O projeto será executado na forma de pacote aberto, licença GNU GPLv3, da linguagem de programação estatística R. O pacote ser/a implementado utilizando a própria linguagem R, sua API para $C$ e $C++$ e outros pacotes livres feitos pela comunidade.
+O projeto será executado na forma de pacote aberto, licença GNU GPLv3, da linguagem de programação estatística R. O pacote será implementado utilizando a própria linguagem R, sua API para $C$ e $C++$ e outros pacotes livres feitos pela comunidade.
 
-Ao fim do ciclo de desenvolvimento, o pacote deverá ser capaz de comparar modelos para tarefas de classificação, clusterização e regressão desenvolvidos pelos usuários com diversos modelos já presentes no pacote.  O usuário poderá fornecer as bases de dados de testes, ou utilizar as bases do pacote. O pacote deverá fornecer também a opção de testes estatísticos e visualizações dos resultados.
+Ao fim do ciclo de desenvolvimento, o pacote deverá ser capaz de comparar modelos para tarefas de classificação, clusterização e regressão desenvolvidos pelos usuários com diversos modelos já presentes no pacote.  O usuário poderá fornecer as bases de dados de testes ou utilizar as bases do pacote. O pacote deverá fornecer também a opção de testes estatísticos e visualizações dos resultados.
 
-Ao fim do desenvolvimento, o software será enviado para publicação no repositório CRAN e será submetido ao \textit{The R Journal}, um periódico para divulgação de pacotes feitos pela comunidade R.
+Após a conclusão do projeto, ele será enviado para publicação no repositório CRAN e submetido ao \textit{The R Journal}, um periódico para divulgação de pacotes feitos pela comunidade R.
 
 
 \section{Organização do trabalho}
 \label{sec:organizacaoTrabalho}
 
+O trabalho está estruturado de forma que o capítulo \ref{chap:SoftwareLivre} tem como objetivo contextualizar e discutir os aspectos sociais e culturais do software livre, bem como falar brevemente da história desse movimento e das suas definições de liberdades sociais.
+
+O Capítulo \ref{chap:RProgrammingLanguage}, discutirá sobre a linguagem de programação R, como ela está inserida dentro do movimento de software livre e como ela está organizada. 
+
+Os capítulos \ref{chap:MachineLearning} e \ref{chap:testStatistics} discutirão, de forma sucinta, os conceitos de aprendizado de máquina e de estatísticas de testes que são as bases da implementação do software. 
+
+Por fim, o capítulo \ref{chap:TheRPackage} abordará os casos de uso do projeto de software.
+
+Nesse trabalho não serão discutidas as métricas e modelos que serão implementados, e tampouco as questões técnicas do projeto que serão abordadas no texto da disciplina de TCC II .

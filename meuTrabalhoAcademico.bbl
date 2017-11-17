@@ -19,11 +19,23 @@ Dispon{\'\i}vel em: \url{http://arxiv.org/abs/1603.04467}.}
 Dispon{\'\i}vel em:
   \url{https://spectrum.ieee.org/computing/software/the-2017-top-programming-languages}.}
 
+\bibitem[Cherkassky e Mulier 2007]{Cherkassky2007}
+\abntrefinfo{Cherkassky e Mulier}{CHERKASSKY; MULIER}{2007}
+{CHERKASSKY, V.~S.; MULIER, F. \textbf{{Learning from data : concepts, theory,
+  and methods}}. [S.l.]: IEEE Press, 2007. 538~p.
+ISBN 0471681822.}
+
 \bibitem[{GNU Operating System} 2017]{GNUOperatingSystem}
 \abntrefinfo{{GNU Operating System}}{{GNU Operating System}}{2017}
 {{GNU Operating System}. \textbf{{Proprietary Software Is Often Malware}}.
   2017.
 Dispon{\'\i}vel em: \url{https://www.gnu.org/proprietary/proprietary.html}.}
+
+\bibitem[Goodfellow, Bengio e Courville 2016]{Goodfellow-et-al-2016}
+\abntrefinfo{Goodfellow, Bengio e Courville}{GOODFELLOW; BENGIO;
+  COURVILLE}{2016}
+{GOODFELLOW, I.; BENGIO, Y.; COURVILLE, A. \textbf{Deep Learning}. [S.l.]: MIT
+  Press, 2016. \url{http://www.deeplearningbook.org}.}
 
 \bibitem[Inc 2012]{Inc2012}
 \abntrefinfo{Inc}{INC}{2012}
@@ -35,6 +47,18 @@ Dispon{\'\i}vel em: \url{http://www.gnu.org/philosophy/free-sw.html}.}
 {LESSIG, L.; STALLMAN, R. \textbf{{Free Software, Free Society: Selected Essays
   of Richard M. Stallman}}. [s.n.], 2002. Dispon{\'\i}vel em:
   \url{https://www.gnu.org/philosophy/fsfs/rms-essays.pdf}.}
+
+\bibitem[{Richard Stallman}]{RichardStallman}
+\abntrefinfo{{Richard Stallman}}{{Richard Stallman}}{}
+{{Richard Stallman}. \textbf{{Why Schools Should Exclusively Use Free
+  Software}}.
+Dispon{\'\i}vel em: \url{https://www.gnu.org/education/edu-schools.en.html}.}
+
+\bibitem[Riley 2012]{Riley2012}
+\abntrefinfo{Riley}{RILEY}{2012}
+{RILEY, M. \textbf{{Programming your home : automate with Arduino, Android, and
+  your computer}}. [S.l.]: Pragmatic Bookshelf, 2012. 216~p.
+ISBN 1934356905.}
 
 \bibitem[Szegedy et al. 2015]{szegedy2015going}
 \abntrefinfo{Szegedy et al.}{SZEGEDY et al.}{2015}
@@ -49,6 +73,33 @@ Dispon{\'\i}vel em: \url{http://www.gnu.org/philosophy/free-sw.html}.}
 Dispon{\'\i}vel em:
   \url{https://www.washingtonpost.com/politics/edward-snowden-says-motive-behind-leaks-was-to-expose-surveillance-state/2013/06/09/aa3f0804-d13b-11e2-a73e-826d299ff459{\\_}story.html?tid=pm{\\_}politics{\\_}pop{\&}utm{\\_}ter}.}
 
+\bibitem[{Top 500 project} 2017]{Top500project2017}
+\abntrefinfo{{Top 500 project}}{{Top 500 project}}{2017}
+{{Top 500 project}. \textbf{{Operating system Family - Systems share}}. 2017.
+Dispon{\'\i}vel em: \url{https://www.top500.org/lists/2017/11/}.}
+
+\bibitem[Tozzi e Zittrain 2017]{tozzi2017fun}
+\abntrefinfo{Tozzi e Zittrain}{TOZZI; ZITTRAIN}{2017}
+{TOZZI, C.; ZITTRAIN, J. \textbf{For Fun and Profit: A History of the Free and
+  Open Source Software Revolution}. MIT Press, 2017.  (History of Computing).
+ISBN 9780262036474. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=MXosDwAAQBAJ}.}
+
+\bibitem[Vapnik e Chervonenkis 1971]{Vapnik1971}
+\abntrefinfo{Vapnik e Chervonenkis}{VAPNIK; CHERVONENKIS}{1971}
+{VAPNIK, V.~N.; CHERVONENKIS, A.~Y. {On the Uniform Convergence of Relative
+  Frequencies of Events to Their Probabilities}.
+\textbf{Theory of Probability {\&} Its Applications}, Society for Industrial
+  and Applied Mathematics, v.~16, n.~2, p. 264--280, jan 1971.
+ISSN 0040-585X.
+Dispon{\'\i}vel em: \url{http://epubs.siam.org/doi/10.1137/1116025}.}
+
+\bibitem[W3Techs 2017]{W3Techs}
+\abntrefinfo{W3Techs}{W3TECHS}{2017}
+{W3TECHS. \textbf{{Usage of operating systems for websites}}. 2017.
+Dispon{\'\i}vel em:
+  \url{https://w3techs.com/technologies/overview/operating{\\_}system/}.}
+
 \bibitem[Wickham 2015]{Wickham2015}
 \abntrefinfo{Wickham}{WICKHAM}{2015}
 {WICKHAM, H. \textbf{{Advanced R}}. CRC Press, 2015. Dispon{\'\i}vel em:
@@ -60,5 +111,11 @@ Dispon{\'\i}vel em:
   the Free Software Revolution Second edition revisions}.
 2010.
 Dispon{\'\i}vel em: \url{https://sagitter.fedorapeople.org/faif-2.0.pdf}.}
+
+\bibitem[Zambiasi e Rabelo 2012]{Zambiasi2012UmaAA}
+\abntrefinfo{Zambiasi e Rabelo}{ZAMBIASI; RABELO}{2012}
+{ZAMBIASI, S.~P.; RABELO, R.~J. Uma arquitetura aberta e orientada a serviços
+  para softwares assistentes pessoais.
+\textbf{RITA}, v.~19, p. 93--119, 2012.}
 
 \end{thebibliography}
