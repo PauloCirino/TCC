@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.6.26)  17 NOV 2017 13:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.6.26)  17 NOV 2017 20:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1446,6 +1446,26 @@ Package: subeqnarray 2004/04/15 v2.1c subeqnarray package
 
 
 Writing index file meuTrabalhoAcademico.idx 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count280
+\l_MT_multwidth_dim=\dimen282
+\origjot=\skip290
+\l_MT_shortvdotswithinadjustabove_dim=\dimen283
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen284
+\l_MT_above_intertext_sep=\dimen285
+\l_MT_below_intertext_sep=\dimen286
+\l_MT_above_shortintertext_sep=\dimen287
+\l_MT_below_shortintertext_sep=\dimen288
+)
 \@input{./01-elementos-pre-textuais/capa.aux}
 \openout2 = `./01-elementos-pre-textuais/capa.aux'.
 
@@ -1458,8 +1478,8 @@ Writing index file meuTrabalhoAcademico.idx
 \openout2 = `./01-elementos-pre-textuais/folhaAprovacao.aux'.
 
 (./01-elementos-pre-textuais/folhaAprovacao.tex)
-Package hyperref Info: Option `colorlinks' set `true' on input line 139.
-Package hyperref Info: Option `breaklinks' set `true' on input line 139.
+Package hyperref Info: Option `colorlinks' set `true' on input line 140.
+Package hyperref Info: Option `breaklinks' set `true' on input line 140.
 
 
 LaTeX Warning: Unused global option(s):
@@ -1478,33 +1498,33 @@ LaTeX Warning: Unused global option(s):
 (./02-elementos-textuais/LinguagemR.aux)
 (./02-elementos-textuais/AprendizadoDeMaquinas.aux)
 (./02-elementos-textuais/EstatisticasDeTeste.aux)
-(./02-elementos-textuais/OPacote.aux)
-(./03-elementos-pos-textuais/referencias.aux))
+(./03-elementos-pos-textuais/referencias.aux)
+(./03-elementos-pos-textuais/indiceRemissivo.aux))
 \openout1 = `meuTrabalhoAcademico.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 160.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 161.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 160.
+(Font)              scaled to size 11.39996pt on input line 161.
 \AtBeginShipoutBox=\box53
-Package hyperref Info: Link coloring ON on input line 160.
+Package hyperref Info: Link coloring ON on input line 161.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1512,28 +1532,28 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count280
+\c@section@level=\count281
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 160.
-LaTeX Info: Redefining \ref on input line 160.
-LaTeX Info: Redefining \pageref on input line 160.
-LaTeX Info: Redefining \nameref on input line 160.
+LaTeX Info: Redefining \nameref on input line 161.
+LaTeX Info: Redefining \ref on input line 161.
+LaTeX Info: Redefining \pageref on input line 161.
+LaTeX Info: Redefining \nameref on input line 161.
 \myptabbox=\box54
-\myptabboxwidth=\skip290
+\myptabboxwidth=\skip291
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count281
-\scratchdimen=\dimen282
+\scratchcounter=\count282
+\scratchdimen=\dimen289
 \scratchbox=\box55
-\nofMPsegments=\count282
-\nofMParguments=\count283
+\nofMPsegments=\count283
+\nofMParguments=\count284
 \everyMPshowfont=\toks53
-\MPscratchCnt=\count284
-\MPscratchDim=\dimen283
-\MPnumerator=\count285
-\makeMPintoPDFobject=\count286
+\MPscratchCnt=\count285
+\MPscratchDim=\dimen290
+\MPnumerator=\count286
+\makeMPintoPDFobject=\count287
 \everyMPtoPDFconversion=\toks54
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1550,7 +1570,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 160.
+LaTeX Info: Redefining \microtypecontext on input line 161.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1570,34 +1590,34 @@ ABD: EveryShipout initializing macros
 File: logoInstituicao.pdf Graphic file (type pdf)
 
 <use logoInstituicao.pdf>
-Package pdftex.def Info: logoInstituicao.pdf used on input line 167.
+Package pdftex.def Info: logoInstituicao.pdf used on input line 168.
 (pdftex.def)             Requested size: 90.99861pt x 128.68575pt.
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
-(Font)              scaled to size 11.39996pt on input line 167.
+(Font)              scaled to size 11.39996pt on input line 168.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 167.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 168.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 167.
+(Font)              scaled to size 11.39996pt on input line 168.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 167.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 168.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 23.63593pt on input line 167.
+(Font)              scaled to size 23.63593pt on input line 168.
 LaTeX Font Info:    Font shape `T1/phv/bx/sc' in size <24.88> not available
-(Font)              Font shape `T1/phv/b/sc' tried instead on input line 167.
+(Font)              Font shape `T1/phv/b/sc' tried instead on input line 168.
 LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
-(Font)              scaled to size 23.63593pt on input line 167.
+(Font)              scaled to size 23.63593pt on input line 168.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 23.63593pt on input line 167.
+(Font)              scaled to size 23.63593pt on input line 168.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 167.
+(Font)              scaled to size 13.67995pt on input line 168.
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
-(Font)              scaled to size 13.67995pt on input line 167.
+(Font)              scaled to size 13.67995pt on input line 168.
 LaTeX Font Info:    Font shape `T1/phv/bx/sc' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/sc' tried instead on input line 167.
+(Font)              Font shape `T1/phv/b/sc' tried instead on input line 168.
 LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
-(Font)              scaled to size 13.67995pt on input line 167.
+(Font)              scaled to size 13.67995pt on input line 168.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 167.
+(Font)              scaled to size 10.40245pt on input line 168.
  [1
 
 
@@ -1609,23 +1629,23 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logoI
 nstituicao.pdf>]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 168.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 169.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 19.70294pt on input line 168.
+(Font)              scaled to size 19.70294pt on input line 169.
 LaTeX Font Info:    Font shape `T1/phv/bx/sc' in size <20.74> not available
-(Font)              Font shape `T1/phv/b/sc' tried instead on input line 168.
+(Font)              Font shape `T1/phv/b/sc' tried instead on input line 169.
 LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
-(Font)              scaled to size 19.70294pt on input line 168.
+(Font)              scaled to size 19.70294pt on input line 169.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 19.70294pt on input line 168.
+(Font)              scaled to size 19.70294pt on input line 169.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 168.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 169.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 16.41594pt on input line 168.
+(Font)              scaled to size 16.41594pt on input line 169.
 LaTeX Font Info:    Font shape `T1/phv/bx/sc' in size <17.28> not available
-(Font)              Font shape `T1/phv/b/sc' tried instead on input line 168.
+(Font)              Font shape `T1/phv/b/sc' tried instead on input line 169.
 LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
-(Font)              scaled to size 16.41594pt on input line 168.
+(Font)              scaled to size 16.41594pt on input line 169.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
@@ -1634,12 +1654,12 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 168.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 169.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 168.
+LaTeX Font Info:    Try loading font information for U+msa on input line 169.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1647,7 +1667,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 168.
+LaTeX Font Info:    Try loading font information for U+msb on input line 169.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1655,7 +1675,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Overfull \hbox (3.07253pt too wide) in paragraph at lines 168--168
+Overfull \hbox (3.07253pt too wide) in paragraph at lines 169--169
 []|\T1/phv/m/n/10.95 (-20) Coorientador:| 
  []
 
@@ -1752,14 +1772,11 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 
 
 
-] [4] [5]
-
-Package hyperref Warning: Suppressing empty link on input line 77.
-
-[6]) [7]
+] [4] [5] [6]) [7]
 \openout2 = `./02-elementos-textuais/LinguagemR.aux'.
 
- (./02-elementos-textuais/LinguagemR.tex
+
+(./02-elementos-textuais/LinguagemR.tex
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <17.28> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 15.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
@@ -1769,7 +1786,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 
 
 ]
-<./04-figuras/R-envs.png, id=258, 907.39pt x 222.8325pt>
+<./04-figuras/R-envs.png, id=263, 907.39pt x 222.8325pt>
 File: ./04-figuras/R-envs.png Graphic file (type png)
 
 <use ./04-figuras/R-envs.png>
@@ -1782,7 +1799,7 @@ Package pdftex.def Info: ./04-figuras/R-envs.png used on input line 29.
                                                   \fi \fi 
 l.40 
       <./04-figuras/R-envs.png>]
-<./04-figuras/NRPackages.png, id=270, 382.42876pt x 401.5pt>
+<./04-figuras/NRPackages.png, id=276, 382.42876pt x 401.5pt>
 File: ./04-figuras/NRPackages.png Graphic file (type png)
 
 <use ./04-figuras/NRPackages.png>
@@ -1793,7 +1810,7 @@ ure.3.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.190 \include{./02-elementos-textuais/LinguagemR}
+l.191 \include{./02-elementos-textuais/LinguagemR}
                                                    <./04-figuras/NRPackages.png
 >]
 \openout2 = `./02-elementos-textuais/AprendizadoDeMaquinas.aux'.
@@ -1804,7 +1821,7 @@ Overfull \hbox (2.27777pt too wide) in paragraph at lines 8--8
 na 
  []
 
-<./04-figuras/MLForm.png, id=291, 271.0125pt x 162.6075pt>
+<./04-figuras/MLForm.png, id=296, 271.0125pt x 162.6075pt>
 File: ./04-figuras/MLForm.png Graphic file (type png)
 
 <use ./04-figuras/MLForm.png>
@@ -1815,7 +1832,7 @@ Package pdftex.def Info: ./04-figuras/MLForm.png used on input line 21.
 
 
 ]
-<./04-figuras/MLProblems.png, id=302, 614.295pt x 316.18124pt>
+<./04-figuras/MLProblems.png, id=307, 614.295pt x 316.18124pt>
 File: ./04-figuras/MLProblems.png Graphic file (type png)
 
 <use ./04-figuras/MLProblems.png>
@@ -1833,19 +1850,19 @@ l.39
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.39 
-      <./04-figuras/MLForm.png> <./04-figuras/MLProblems.png>]) [14]
+      <./04-figuras/MLForm.png> <./04-figuras/MLProblems.png>] [14]
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 86.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsphv.fd
+File: omsphv.fd 
+)
+LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 86.
+) [15]
 \openout2 = `./02-elementos-textuais/EstatisticasDeTeste.aux'.
 
 
-(./02-elementos-textuais/EstatisticasDeTeste.tex) [15
-
-
-
-]
-\openout2 = `./02-elementos-textuais/OPacote.aux'.
-
-
-(./02-elementos-textuais/OPacote.tex) [16
+(./02-elementos-textuais/EstatisticasDeTeste.tex) [16
 
 
 
@@ -1861,19 +1878,19 @@ l.39
 
 bibitemlist
 
-Underfull \hbox (badness 6825) in paragraph at lines 75--75
+Underfull \hbox (badness 6825) in paragraph at lines 86--86
 \T1/phv/b/n/12 veil-lance state'\T1/phv/m/n/12 (+20) . 2013. Dis-po-ní-vel em: 
 [][]$<[]https : / / www . washingtonpost . com / politics /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
 \T1/phv/m/n/12 (+20) edward-[]snowden-[]says-[]motive-[]behind-[]leaks-[]was-[]
 to-[]expose-[]surveillance-[]state / 2013 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
 \T1/phv/m/n/12 (+20) 06 / 09 / aa3f0804-[]d13b-[]11e2-[]a73e-[]826d299^^[459{\ 
 _ }story . html ? tid = pm{\ _ }politics{\ _
  []
@@ -1883,16 +1900,20 @@ _ }story . html ? tid = pm{\ _ }politics{\ _
 
 
 ])) [18]
+\openout2 = `./03-elementos-pos-textuais/indiceRemissivo.aux'.
+
+ (./03-elementos-pos-textuais/indiceRemissivo.tex
+No file meuTrabalhoAcademico.ind.
+)
 \tf@lof=\write7
 \openout7 = `meuTrabalhoAcademico.lof'.
 
 \tf@toc=\write8
 \openout8 = `meuTrabalhoAcademico.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 213.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 213.
- (./meuTrabalhoAcademico.aux
-(./01-elementos-pre-textuais/agradecimentos.aux)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 214.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 214.
+ (./meuTrabalhoAcademico.aux (./01-elementos-pre-textuais/agradecimentos.aux)
 (./01-elementos-pre-textuais/epigrafe.aux)
 (./01-elementos-pre-textuais/resumoPt.aux)
 (./01-elementos-pre-textuais/resumoEn.aux)
@@ -1905,43 +1926,45 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 213.
 (./02-elementos-textuais/LinguagemR.aux)
 (./02-elementos-textuais/AprendizadoDeMaquinas.aux)
 (./02-elementos-textuais/EstatisticasDeTeste.aux)
-(./02-elementos-textuais/OPacote.aux)
-(./03-elementos-pos-textuais/referencias.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 213.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 213.
+(./03-elementos-pos-textuais/referencias.aux)
+(./03-elementos-pos-textuais/indiceRemissivo.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 214.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 214.
 Package rerunfilecheck Info: File `meuTrabalhoAcademico.brf' has not changed.
-(rerunfilecheck)             Checksum: DFD05EA2D72771FDF5A6C8BB2F9855E7;1832.
+(rerunfilecheck)             Checksum: 26A784F111400629F7F22160D348BF0A;1995.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 213.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 214.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 25856 strings out of 493014
- 452665 string characters out of 6133351
- 620655 words of memory out of 5000000
- 28448 multiletter control sequences out of 15000+600000
- 87451 words of font info for 236 fonts, out of 8000000 for 9000
+ 26382 strings out of 493014
+ 462201 string characters out of 6133351
+ 632060 words of memory out of 5000000
+ 28950 multiletter control sequences out of 15000+600000
+ 87827 words of font info for 240 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 60i,11n,54p,757b,2977s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,54p,757b,3444s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc
-}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/lo
-cal/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on meuTrabalhoAcademico.pdf (28 pages, 358461 bytes).
+}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on meuTrabalhoAcademico.pdf (28 pages, 383765 bytes).
 PDF statistics:
- 541 PDF objects out of 1000 (max. 8388607)
- 487 compressed objects within 5 object streams
- 101 named destinations out of 1000 (max. 500000)
- 34102 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 578 PDF objects out of 1000 (max. 8388607)
+ 521 compressed objects within 6 object streams
+ 108 named destinations out of 1000 (max. 500000)
+ 34118 words of extra memory for PDF output out of 35830 (max. 10000000)
 

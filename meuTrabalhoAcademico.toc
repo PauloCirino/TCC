@@ -19,10 +19,12 @@
 \contentsline {section}{\numberline {4.1}Formula\IeC {\c c}\IeC {\~a}o e Caracteriza\IeC {\c c}\IeC {\~a}o do Aprendizado de M\IeC {\'a}quina}{12}{section.4.1}
 \contentsline {section}{\numberline {4.2}Aprendizado Supervisionado}{14}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Problemas de Classifica\IeC {\c c}\IeC {\~a}o}{14}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Problemas de Regress\IeC {\~a}o}{14}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Aprendizado N\IeC {\~a}o Supervisionado}{14}{section.4.3}
-\contentsline {section}{\numberline {4.4}M\IeC {\'e}tricas de Aprendizado}{14}{section.4.4}
-\contentsline {chapter}{\chapternumberline {5}Estat\IeC {\'\i }sticas de Teste}{15}{chapter.5}
-\contentsline {chapter}{\chapternumberline {6}O Pacote}{16}{chapter.6}
+\contentsline {subsection}{\numberline {4.2.2}Problemas de Regress\IeC {\~a}o}{15}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Aprendizado N\IeC {\~a}o Supervisionado}{15}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Agrupamento}{15}{subsection.4.3.1}
+\contentsline {chapter}{\chapternumberline {5}Estat\IeC {\'\i }sticas de Teste}{16}{chapter.5}
+\contentsline {section}{\numberline {5.1}O que \IeC {\'e} Estat\IeC {\'\i }stica de Teste}{16}{section.5.1}
+\contentsline {section}{\numberline {5.2}Teste Pareado}{16}{section.5.2}
+\contentsline {section}{\numberline {5.3}Testes param\IeC {\'e}trico e n\IeC {\~a}o-param\IeC {\'e}trico}{16}{section.5.3}
 \contentsline {chapter}{Refer\^encias}{17}{section*.13}
 \vspace {\cftbeforepartskip }

@@ -12,6 +12,17 @@
 \textbf{CoRR}, abs/1603.04467, 2016.
 Dispon{\'\i}vel em: \url{http://arxiv.org/abs/1603.04467}.}
 
+\bibitem[Berkhin 2006]{berkhin2006survey}
+\abntrefinfo{Berkhin}{BERKHIN}{2006}
+{BERKHIN, P. A survey of clustering data mining techniques.
+\textbf{Grouping multidimensional data}, Springer, v.~25, p.~71, 2006.}
+
+\bibitem[Casella e Berger 2002]{Casella2002}
+\abntrefinfo{Casella e Berger}{CASELLA; BERGER}{2002}
+{CASELLA, G.; BERGER, R.~L. \textbf{{Statistical inference}}. [S.l.]: Thomson
+  Learning, 2002. 660~p.
+ISBN 0534243126.}
+
 \bibitem[Cass 2017]{Cass2017}
 \abntrefinfo{Cass}{CASS}{2017}
 {CASS, S. {The 2017 Top Programming Languages}.
@@ -48,10 +59,10 @@ Dispon{\'\i}vel em: \url{http://www.gnu.org/philosophy/free-sw.html}.}
   of Richard M. Stallman}}. [s.n.], 2002. Dispon{\'\i}vel em:
   \url{https://www.gnu.org/philosophy/fsfs/rms-essays.pdf}.}
 
-\bibitem[{Richard Stallman}]{RichardStallman}
-\abntrefinfo{{Richard Stallman}}{{Richard Stallman}}{}
+\bibitem[{Richard Stallman} 2017]{RichardStallman}
+\abntrefinfo{{Richard Stallman}}{{Richard Stallman}}{2017}
 {{Richard Stallman}. \textbf{{Why Schools Should Exclusively Use Free
-  Software}}.
+  Software}}. 2017.
 Dispon{\'\i}vel em: \url{https://www.gnu.org/education/edu-schools.en.html}.}
 
 \bibitem[Riley 2012]{Riley2012}
