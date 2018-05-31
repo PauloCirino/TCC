@@ -2,10 +2,10 @@
 %   Arquivo: ./02-elementos-textuais/trabalhosRelacionados.tex
 % -----------------------------------------------------------------------------
 
-\chapter{Aprendizado de Máquina}
+\chapter{Aprendizado de máquina}
 \label{chap:MachineLearning}
 
-\section{Formulação e Caracterização do Aprendizado de Máquina}
+\section{Formulação e caracterização do aprendizado de máquina}
 
 Nos primórdios da inteligência artificial, pesquisadores foram capazes de resolver problemas que são intelectualmente difíceis para os seres humanos, mas relativamente simples para os computadores. Exemplo disso são os problemas que podem ser descritos por uma sequência de regras ou que podem ser solucionados por operações matemáticas \cite{Goodfellow-et-al-2016}.
 
@@ -33,9 +33,9 @@ O aprendizado de máquinas clássico diz respeito à aprender pelo exemplo, que 
 	\includegraphics[width=0.8\textwidth]{./04-figuras/MLProblems.png}
 	\label{fig:MLProblems}
 \end{figure}
-\section{Aprendizado Supervisionado}
+\section{Aprendizado supervisionado}
 
-No aprendizado supervisionado, o objetivo é prever o valor de uma variável resultado com base em variáveis características. Na situação que a variável resposta é quantitativa, o problema é considerado como uma tarefa de regressão. Quando essa variável resposta é quantitativa, a tarefa é chamada de classificação.
+No aprendizado supervisionado, o objetivo é prever o valor de uma variável resultado com base em variáveis características. Na situação que a variável resposta é quantitativa, o problema é considerado como uma tarefa de regressão. Quando essa variável resposta é qualitativa, a tarefa é chamada de classificação.
 
 De acordo com \citeonline{Cherkassky2007}, existem duas interpretações para o problema de aprendizado : identificação e imitação. A interpretação escolhida para fundamentar esse trabalho é a de imitação, descrita por \citeonline{Vapnik1971}.
 
@@ -50,8 +50,8 @@ O objetivo do aprendizado é encontrar uma função $f(x, \omega)$ que aproxima,
 
 A principal diferença entre problemas de classificação e regressão é a função de custo. Como a variável de saída de cada um desses problemas tem um formato diferente, a função de custo deve ser adaptada especificadamente para ele. Contudo, a formulação do aprendizado feito na equação \ref{eq:LearningEq} permanece inalterada, pois o objetivo é sempre minimizar a discrepância entre \textit{Sistema} e \textit{Aprendizado de Máquina} \cite{Cherkassky2007}.
 
-\subsection{Problemas de Classificação}
-A situação mais simples de classificação é aquele em que a saída $y$ assume apenas dois valores, $y = 0$ ou $y = 1$, em que é chamada de problema de classificação binária. Nessa situação, a função de custo específica é do formato \ref{eq:ClassProb}.
+\subsection{Problemas de classificação}
+A situação mais simples de classificação é aquele em que a saída $y$ assume apenas dois valores, $y = 0$ ou $y = 1$, em que é chamada de problema de classificação binária. Nessa situação, segundo \citeonline{HastieFerro}, a função de custo específica é do formato \ref{eq:ClassProb}.
 
 \begin{equation}
 {	
@@ -66,33 +66,11 @@ A situação mais simples de classificação é aquele em que a saída $y$ assum
 
 O senário em que $y$ assume $q$ valores, em que $q > 2 \land q \in \mathbb {N}$, pode ser simplificado em $q$ problemas de classificação binária em que o problema $j$ tem forma $y = j \rightarrow y_j = 1$ e $y_j \neq  \rightarrow y_j = 0 $, para $ 0 \leq j \leq q \land j \in \mathbb {N}$.
 
-\subsection{Problemas de Regressão}
-O problema de regressão é caracterizado por $y \in \mathbb {R}$, dessa forma a função de custo normalmente é formulada como mostra a equação \ref{eq:RegProb}, onde $d$ é uma métrica genérica de distância entre dois números reais.
+\subsection{Problemas de regressão}
+O problema de regressão é caracterizado, segundo \citeonline{HastieFerro}, por $y \in \mathbb {R}$, dessa forma a função de custo normalmente é formulada como mostra a equação \ref{eq:RegProb}, onde $d$ é uma métrica genérica de distância entre dois números reais.
 
 \begin{equation}
 L(y, f(x, \omega)) = d(y, f(x, \omega))
 \label{eq:RegProb}
 \end{equation}
 
-\section{Aprendizado Não Supervisionado}
-
-O aprendizado não supervisionado é caracterizado pela não existência de uma variável resposta $y$. Contudo, os problemas dessa tarefa podem ser divididos em três grandes grupos : agrupamento, associação e sumarização. Será discutido nessa seção apenas a tarefa de agrupamento, porque é a única que será contemplada pelo projeto final de software.
-
-\subsection{Agrupamento}
-A tarefa de agrupamento, diz respeito a atribuição de rótulos para amostras de forma que aquelas com rótulos iguais possuam mais similaridades entre sí do que entre aquelas com rótulos diferentes. 
-
-Não existe uma padronização, entre autores, na classificação das metodologias para realizar essa tarefa. Porém, segundo \citeonline{berkhin2006survey}, eles podem ser divididos em três grandes grupos :
-\begin{compactitem}
-	\item \textbf{Hierárquicos :} São modelos baseados em agrupar amostras hierarquicamente, por meio de uma função de similaridade. 
-	
-	\item \textbf{Baseado em densidade :} São modelos que utilizam a ideia de que agrupamentos estão definidos por amostras em regiões densas do espaço.
-	
-	\item \textbf{Baseado em partição :} São modelos que particionam o espaço amostral em regiões, normalmente esses métodos são formulados por otimização iterativa e incluem os algorítimos baseados em centros e distribuições de probabilidade.
-	
-\end{compactitem}
-%
-%\subsection{Associação}
-% As regras de associação é um campo que surgiu para resolver o problema do \textit{'carrinho de compras'} de bases de dados comerciais, com o objetivo de encontrar relações interessantes entre variáveis diferente um conjunto de dados muito grande \cite{Hastie2009, Agrawal1993}.  
-%
-%\subsection{Sumarização}
-%

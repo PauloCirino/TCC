@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2016)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: meuTrabalhoAcademico.aux
 A level-1 auxiliary file: ./01-elementos-pre-textuais/agradecimentos.aux
 A level-1 auxiliary file: ./01-elementos-pre-textuais/epigrafe.aux
@@ -17,6 +17,7 @@ A level-1 auxiliary file: ./02-elementos-textuais/EstatisticasDeTeste.aux
 A level-1 auxiliary file: ./02-elementos-textuais/OPacote.aux
 A level-1 auxiliary file: ./03-elementos-pos-textuais/referencias.aux
 The style file: abntex2-alf.bst
+A level-1 auxiliary file: ./03-elementos-pos-textuais/apendices.aux
 A level-1 auxiliary file: ./03-elementos-pos-textuais/indiceRemissivo.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -29,11 +30,11 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: ./03-elementos-pos-textuais/myRefs.bib
-Repeated entry---line 118 of file ./03-elementos-pos-textuais/myRefs.bib
+Repeated entry---line 184 of file ./03-elementos-pos-textuais/myRefs.bib
  : @misc{Inc2012
  :              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 232 of file ./03-elementos-pos-textuais/myRefs.bib
+Repeated entry---line 298 of file ./03-elementos-pos-textuais/myRefs.bib
  : @book{Goodfellow-et-al-2016
  :                            ,
 I'm skipping whatever remains of this entry
@@ -46,45 +47,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 27 entries,
+You've used 32 entries,
             6714 wiz_defined-function locations,
-            1352 strings with 14463 characters,
-and the built_in function-call counts, 32652 in all, are:
-= -- 3840
-> -- 540
-< -- 836
-+ -- 1070
-- -- 169
-* -- 1952
-:= -- 4004
-add.period$ -- 85
-call.type$ -- 28
-change.case$ -- 206
-chr.to.int$ -- 45
-cite$ -- 20
-duplicate$ -- 3187
-empty$ -- 1487
-format.name$ -- 789
-if$ -- 6646
+            1382 strings with 15342 characters,
+and the built_in function-call counts, 39471 in all, are:
+= -- 4638
+> -- 667
+< -- 1004
++ -- 1287
+- -- 209
+* -- 2366
+:= -- 4854
+add.period$ -- 109
+call.type$ -- 33
+change.case$ -- 250
+chr.to.int$ -- 47
+cite$ -- 25
+duplicate$ -- 3864
+empty$ -- 1793
+format.name$ -- 975
+if$ -- 8023
 int.to.chr$ -- 6
 int.to.str$ -- 3
-missing$ -- 430
-newline$ -- 109
-num.names$ -- 100
-pop$ -- 531
+missing$ -- 524
+newline$ -- 134
+num.names$ -- 125
+pop$ -- 663
 preamble$ -- 1
-purify$ -- 96
+purify$ -- 114
 quote$ -- 0
-skip$ -- 3551
+skip$ -- 4238
 stack$ -- 1
-substring$ -- 1320
-swap$ -- 1119
-text.length$ -- 21
+substring$ -- 1577
+swap$ -- 1351
+text.length$ -- 23
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 1
 warning$ -- 0
-while$ -- 143
+while$ -- 176
 width$ -- 0
-write$ -- 316
+write$ -- 390
 (There were 2 error messages)

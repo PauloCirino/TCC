@@ -4,21 +4,35 @@
 
 
 
-\chapter{Estatísticas de Teste}
+\chapter{Estatísticas de teste}
 \label{chap:testStatistics}
 
-\section{O que é Estatística de Teste}
+\section{Definição de estatística de teste}
 Uma estatística de teste é o valor que é calculado a partir de dados durante um teste de hipóteses. O valor dessa estatística mede o grau de concordância entre uma amostra de dado e a hipótese nula, que por sua vez pode ser rejeitada ou não \cite{Casella2002}. 
 
 Em um teste estatístico, as hipóteses são premissas a serem testadas. Tradicionalmente existem duas hipóteses, a nula e a alternativa, em que o objetivo do teste é conservadoramente rejeitar a hipótese nula à favor da hipótese alternativa. Dessa forma, os testes são feitos tal que o objetivo que deseja-se testar é descrito pela hipótese alternativa.
 
 Os tipos de testes que serão implementados no projeto são os testes pareados paramétricos e não-paramétricos.
 
-\section{Teste Pareado}
+\section{Teste pareado}
 Os testes pareados são aqueles utilizados para comparar um conjuntos de medidas de duas populações e avaliar se elas são diferentes. Nessa situação, tradicionalmente a hipótese nula é a diferença entre estatística entre as populações, e a hipótese alternativa pode ser que uma é maior que a outra ou que são diferentes.
 
 Uma vantagem de utilizar os testes pareados, é que eles tornam possível a comparação de múltiplas populações, fazendo vários testes 2 à 2.
 
 \section{Testes paramétrico e não-paramétrico}
+Um teste estatístico paramétrico é aquele que faz suposições sobre os parâmetros da
+distribuição geradora das populações que estão sendo testadas. Desta forma, um teste
+não-paramétrico é aquele que implica a ausência dessas suposições, de forma mais direta é
+aquele que não supões nada sobre os parâmetros da função de distribuição de probabilidade
+geradora \cite{LowryFerro}.
 
+Na maioria das situações práticas, os teste não-paramétricos são vantajosos quando as
+populações de teste são muito pequenas, possuem estrutura ordinal, ou são melhor representadas pela mediana. Quase que em todas as demais situações, os testes paramétricos
+se comportam de forma mais confiável e geram resultados com maior potência estatística \cite{Casella2002}.
+
+Além disso, os teste paramétricos não estão limitados pela suposição de que a dispersão
+amostral é igual nas populações de teste, diferente da maioria dos não-paramétricos, e
+tampouco funciona apenas para funções geradoras normais. Dado um tamanho amostral
+suficientemente grande, qualquer distribuição pode ser aplicado para um teste que assume
+normalidade \cite{KernsFerro}.
 

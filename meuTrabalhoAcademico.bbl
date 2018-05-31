@@ -12,11 +12,6 @@
 \textbf{CoRR}, abs/1603.04467, 2016.
 Dispon{\'\i}vel em: \url{http://arxiv.org/abs/1603.04467}.}
 
-\bibitem[Berkhin 2006]{berkhin2006survey}
-\abntrefinfo{Berkhin}{BERKHIN}{2006}
-{BERKHIN, P. A survey of clustering data mining techniques.
-\textbf{Grouping multidimensional data}, Springer, v.~25, p.~71, 2006.}
-
 \bibitem[Casella e Berger 2002]{Casella2002}
 \abntrefinfo{Casella e Berger}{CASELLA; BERGER}{2002}
 {CASELLA, G.; BERGER, R.~L. \textbf{{Statistical inference}}. [S.l.]: Thomson
@@ -48,16 +43,48 @@ Dispon{\'\i}vel em: \url{https://www.gnu.org/proprietary/proprietary.html}.}
 {GOODFELLOW, I.; BENGIO, Y.; COURVILLE, A. \textbf{Deep Learning}. [S.l.]: MIT
   Press, 2016. \url{http://www.deeplearningbook.org}.}
 
+\bibitem[Hastie, Tibshirani e Friedman 2009]{HastieFerro}
+\abntrefinfo{Hastie, Tibshirani e Friedman}{HASTIE; TIBSHIRANI; FRIEDMAN}{2009}
+{HASTIE, T.; TIBSHIRANI, R.; FRIEDMAN, J. \textbf{{The Elements of Statistical
+  Learning}}. New York, NY: Springer New York, 2009.  (Springer Series in
+  Statistics).
+ISBN 978-0-387-84857-0. Dispon{\'\i}vel em:
+  \url{http://link.springer.com/10.1007/978-0-387-84858-7}.}
+
 \bibitem[Inc 2012]{Inc2012}
 \abntrefinfo{Inc}{INC}{2012}
 {INC, F. S.~F. \textbf{{What is free software?}} 2012.
 Dispon{\'\i}vel em: \url{http://www.gnu.org/philosophy/free-sw.html}.}
+
+\bibitem[Kerns 2010]{KernsFerro}
+\abntrefinfo{Kerns}{KERNS}{2010}
+{KERNS, G.~J. \textbf{{Introduction to probability and statistics using R}}.
+  [S.l.]: [s.n.], 2010.
+ISBN 0557249791.}
 
 \bibitem[Lessig e Stallman 2002]{Lessig2002}
 \abntrefinfo{Lessig e Stallman}{LESSIG; STALLMAN}{2002}
 {LESSIG, L.; STALLMAN, R. \textbf{{Free Software, Free Society: Selected Essays
   of Richard M. Stallman}}. [s.n.], 2002. Dispon{\'\i}vel em:
   \url{https://www.gnu.org/philosophy/fsfs/rms-essays.pdf}.}
+
+\bibitem[Lowry e (Richard) 2014]{LowryFerro}
+\abntrefinfo{Lowry e (Richard)}{LOWRY; (RICHARD)}{2014}
+{LOWRY, R.~R.; (RICHARD), R. {Concepts and Applications of Inferential
+  Statistics}.
+\textbf{http://vassarstats.net/textbook/}, 2014.
+Dispon{\'\i}vel em: \url{http://doer.col.org/handle/123456789/4853}.}
+
+\bibitem[OpenHub 2017]{OepnHub2017}
+\abntrefinfo{OpenHub}{OPENHUB}{2017}
+{OPENHUB. \textbf{The R-project (GNU S) Open Source Project on Open Hub}. 2017.
+  \url{https://www.openhub.net/p/r_project}.
+(Accessed on 05/30/2018).}
+
+\bibitem[R-project 2017]{R-project}
+\abntrefinfo{R-project}{R-PROJECT}{2017}
+{R-PROJECT. \textbf{{R: What is R?}} 2017.
+Dispon{\'\i}vel em: \url{https://www.r-project.org/about.html}.}
 
 \bibitem[{Richard Stallman} 2017]{RichardStallman}
 \abntrefinfo{{Richard Stallman}}{{Richard Stallman}}{2017}
@@ -83,6 +110,14 @@ ISBN 1934356905.}
   ‘surveillance state'}}. 2013.
 Dispon{\'\i}vel em:
   \url{https://www.washingtonpost.com/politics/edward-snowden-says-motive-behind-leaks-was-to-expose-surveillance-state/2013/06/09/aa3f0804-d13b-11e2-a73e-826d299ff459{\\_}story.html?tid=pm{\\_}politics{\\_}pop{\&}utm{\\_}ter}.}
+
+\bibitem[{The R Foundation for Statistical Computing} 2014]{TheRF2014}
+\abntrefinfo{{The R Foundation for Statistical Computing}}{{The R Foundation
+  for Statistical Computing}}{2014}
+{{The R Foundation for Statistical Computing}. \textbf{{R: Software Development
+  Life Cycle A Description of R's Development, Testing, Release and Maintenance
+  Processes}}. [s.n.], 2014. Dispon{\'\i}vel em:
+  \url{https://www.r-project.org/doc/R-SDLC.pdf}.}
 
 \bibitem[{Top 500 project} 2017]{Top500project2017}
 \abntrefinfo{{Top 500 project}}{{Top 500 project}}{2017}
