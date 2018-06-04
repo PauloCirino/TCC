@@ -1,0 +1,11 @@
+\begin{algorithm}
+	\caption{Algoritmo k-\textit{Nearest Neighbours}}
+	\KwIn{$x$ amostra desconhecida,  $k$ é o parâmetro do número de vizinhos, $\{\mathbb{X}, \mathbb{Y}\}$ é o conjunto de pares amostras e respostas conhecidas }
+	\KwOut{a predição da amostra desconhecida $y$ }
+	
+	\For {\textbf{each} $x_i \in \mathbb{X}$} {
+		Computa a distância da amostra conhecida $i$ para a desconhecida $\mathbb{D_i} = d(x, x_i)$ \\
+	}
+	Seleciona o conjunto $\mathbb{L}$ referente as $k$ respostas com menor distância $\mathbb{D}$, onde $\mathbb{L} \in Y$ \\ 
+	Computa a resposta $y = moda(\mathbb{L})$
+\end{algorithm}

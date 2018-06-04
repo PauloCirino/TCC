@@ -12,6 +12,12 @@
 \textbf{CoRR}, abs/1603.04467, 2016.
 Dispon{\'\i}vel em: \url{http://arxiv.org/abs/1603.04467}.}
 
+\bibitem[Boser, Guyon e Vapnik 1992]{boser1992training}
+\abntrefinfo{Boser, Guyon e Vapnik}{BOSER; GUYON; VAPNIK}{1992}
+{BOSER, B.~E.; GUYON, I.~M.; VAPNIK, V.~N. A training algorithm for optimal
+  margin classifiers. In:  ACM. \textbf{Proceedings of the fifth annual
+  workshop on Computational learning theory}. [S.l.], 1992. p. 144--152.}
+
 \bibitem[Casella e Berger 2002]{Casella2002}
 \abntrefinfo{Casella e Berger}{CASELLA; BERGER}{2002}
 {CASELLA, G.; BERGER, R.~L. \textbf{{Statistical inference}}. [S.l.]: Thomson
@@ -30,6 +36,14 @@ Dispon{\'\i}vel em:
 {CHERKASSKY, V.~S.; MULIER, F. \textbf{{Learning from data : concepts, theory,
   and methods}}. [S.l.]: IEEE Press, 2007. 538~p.
 ISBN 0471681822.}
+
+\bibitem[Cortes e Vapnik 1995]{Cortes1995}
+\abntrefinfo{Cortes e Vapnik}{CORTES; VAPNIK}{1995}
+{CORTES, C.; VAPNIK, V. {Support-vector networks}.
+\textbf{Machine Learning}, Kluwer Academic Publishers, v.~20, n.~3, p.
+  273--297, sep 1995.
+ISSN 0885-6125.
+Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/BF00994018}.}
 
 \bibitem[{GNU Operating System} 2017]{GNUOperatingSystem}
 \abntrefinfo{{GNU Operating System}}{{GNU Operating System}}{2017}
@@ -56,6 +70,13 @@ ISBN 978-0-387-84857-0. Dispon{\'\i}vel em:
 {INC, F. S.~F. \textbf{{What is free software?}} 2012.
 Dispon{\'\i}vel em: \url{http://www.gnu.org/philosophy/free-sw.html}.}
 
+\bibitem[James et al. 2013]{James20131}
+\abntrefinfo{James et al.}{JAMES et al.}{2013}
+{JAMES, G. et al. \textbf{{An Introduction to Statistical Learning}}. New York,
+  NY: Springer New York, 2013. v.~103.  (Springer Texts in Statistics, v.~103).
+ISBN 978-1-4614-7137-0. Dispon{\'\i}vel em:
+  \url{http://link.springer.com/10.1007/978-1-4614-7138-7}.}
+
 \bibitem[Kerns 2010]{KernsFerro}
 \abntrefinfo{Kerns}{KERNS}{2010}
 {KERNS, G.~J. \textbf{{Introduction to probability and statistics using R}}.
@@ -68,12 +89,17 @@ ISBN 0557249791.}
   of Richard M. Stallman}}. [s.n.], 2002. Dispon{\'\i}vel em:
   \url{https://www.gnu.org/philosophy/fsfs/rms-essays.pdf}.}
 
-\bibitem[Lowry e (Richard) 2014]{LowryFerro}
-\abntrefinfo{Lowry e (Richard)}{LOWRY; (RICHARD)}{2014}
-{LOWRY, R.~R.; (RICHARD), R. {Concepts and Applications of Inferential
-  Statistics}.
+\bibitem[Lowry e Richard 2014]{LowryTrem}
+\abntrefinfo{Lowry e Richard}{LOWRY; RICHARD}{2014}
+{LOWRY, R.; RICHARD, R. {Concepts and Applications of Inferential Statistics}.
 \textbf{http://vassarstats.net/textbook/}, 2014.
 Dispon{\'\i}vel em: \url{http://doer.col.org/handle/123456789/4853}.}
+
+\bibitem[Neto 2018]{PauloCirinoMLAT}
+\abntrefinfo{Neto}{NETO}{2018}
+{NETO, P. C.~R. \textbf{MLAT: Machine Learning Automated Software}.
+[S.l.], 2018. R package version 0.1.0. Dispon{\'\i}vel em:
+  \url{https://github.com/PauloCirino/MLAT}.}
 
 \bibitem[OpenHub 2017]{OepnHub2017}
 \abntrefinfo{OpenHub}{OPENHUB}{2017}
@@ -110,6 +136,13 @@ ISBN 1934356905.}
   ‘surveillance state'}}. 2013.
 Dispon{\'\i}vel em:
   \url{https://www.washingtonpost.com/politics/edward-snowden-says-motive-behind-leaks-was-to-expose-surveillance-state/2013/06/09/aa3f0804-d13b-11e2-a73e-826d299ff459{\\_}story.html?tid=pm{\\_}politics{\\_}pop{\&}utm{\\_}ter}.}
+
+\bibitem[Tay, Hyun e Oh 2014]{articleTay}
+\abntrefinfo{Tay, Hyun e Oh}{TAY; HYUN; OH}{2014}
+{TAY, B.; HYUN, J.~K.; OH, S. A machine learning approach for specification of
+  spinal cord injuries using fractional anisotropy values obtained from
+  diffusion tensor images.
+v.~2014, p. 276589, 01 2014.}
 
 \bibitem[{The R Foundation for Statistical Computing} 2014]{TheRF2014}
 \abntrefinfo{{The R Foundation for Statistical Computing}}{{The R Foundation

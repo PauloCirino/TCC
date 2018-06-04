@@ -20,13 +20,21 @@
 \contentsline {section}{\numberline {4.2}Aprendizado supervisionado}{14}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Problemas de classifica\IeC {\c c}\IeC {\~a}o}{14}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Problemas de regress\IeC {\~a}o}{15}{subsection.4.2.2}
-\contentsline {chapter}{\chapternumberline {5}Estat\IeC {\'\i }sticas de teste}{16}{chapter.5}
-\contentsline {section}{\numberline {5.1}Defini\IeC {\c c}\IeC {\~a}o de estat\IeC {\'\i }stica de teste}{16}{section.5.1}
-\contentsline {section}{\numberline {5.2}Teste pareado}{16}{section.5.2}
-\contentsline {section}{\numberline {5.3}Testes param\IeC {\'e}trico e n\IeC {\~a}o-param\IeC {\'e}trico}{17}{section.5.3}
-\contentsline {chapter}{\chapternumberline {6}O Software}{18}{chapter.6}
-\contentsline {chapter}{Refer\^encias}{19}{section*.13}
+\contentsline {section}{\numberline {4.3}M\IeC {\'e}todos de Classifica\IeC {\c c}\IeC {\~a}o}{15}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}\textit {k Nearest Neighbours}}{15}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}\textit {Support Vector Machines}}{16}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}\textit {Multilayer Perceptron}}{17}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}M\IeC {\'e}todos de Regress\IeC {\~a}o}{17}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Regress\IeC {\~a}o Linear}{17}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}\textit {Ridge Regression}}{17}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}\textit {Multilayer Perceptron}}{17}{subsection.4.4.3}
+\contentsline {chapter}{\chapternumberline {5}Estat\IeC {\'\i }sticas de teste}{18}{chapter.5}
+\contentsline {section}{\numberline {5.1}Defini\IeC {\c c}\IeC {\~a}o de estat\IeC {\'\i }stica de teste}{18}{section.5.1}
+\contentsline {section}{\numberline {5.2}Teste pareado}{18}{section.5.2}
+\contentsline {section}{\numberline {5.3}Testes param\IeC {\'e}trico e n\IeC {\~a}o-param\IeC {\'e}trico}{19}{section.5.3}
+\contentsline {chapter}{\chapternumberline {6}O Software}{20}{chapter.6}
+\contentsline {chapter}{Refer\^encias}{21}{section*.14}
 \vspace {\cftbeforepartskip }
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
-\contentsline {part}{Ap\^endices}{21}{section*.14}
-\contentsline {appendix}{\chapternumberline {A}Manual do pacote MLAT}{22}{appendix.A}
+\contentsline {part}{Ap\^endices}{24}{section*.15}
+\contentsline {appendix}{\chapternumberline {A}Manual do pacote MLAT}{25}{appendix.A}

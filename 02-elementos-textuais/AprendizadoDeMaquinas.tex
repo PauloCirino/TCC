@@ -74,3 +74,56 @@ L(y, f(x, \omega)) = d(y, f(x, \omega))
 \label{eq:RegProb}
 \end{equation}
 
+\section{Métodos de Classificação} 
+Nesse capítulo serão abordados os métodos de aprendizados implementados no pacote MLAT \cite{PauloCirinoMLAT}. 
+
+\subsection{\textit{k Nearest Neighbours}}
+O método \textit{k Nearest Neighbours} (\textbf{kNN}) é o algoritmo não paramétrico mais simples e conhecido \cite{James20131} . Seu funcionamento se dá de forma que a predição de uma amostra desconhecida é a moda das $k$ amostras mais próximas. De forma gernérica sua implementação pode ser feita utilizando o pseudocódigo abaixo adaptado do trabalho de \citeonline{articleTay} :
+
+\input{./07-algoritmos/knn} 
+
+É importante ressaltar algumas características do kNN, como sua simplicidade de implementação e a não existência de uma etapa de treinamento. Além disso, o método é capaz de produzir superfices de decisão não lineares e é robusto, dado uma escolha adequada do parâmetro $k$, a conjuntos ruidosos.
+
+Entretanto esse algorítimo se baseia na memória das amostras conhecidas, fazendo com que ele não seja capaz de generalizar sua supercie de decisão para novas amostras fora do espaço conhecido. Outra consequência de ser um sistema baseado em memória é sua complexidade $O(n)$, para espaço e tempo, no momento de predição. 
+
+
+\subsection{\textit{Support Vector Machines}}
+As \textit{Support Vector Machines}, em português Máquinas de Vetor de Suporte, foram inicialmente propostas em \citeonline{boser1992training}. Esse método foi produzido como uma alternativa que, diferente de outros algorítmos tradicionais, não miniza o erro do classificador, mas, sim maximizar a margem de separação entre duas classes \cite{James20131}. O intúito para isso é produzir um classificar que seja capaz de encontrar uma superfície de decisão mais genérica, e consequentemente, que tenha melhor desempenho em amostras desconhecidas \cite{Cortes1995}.
+
+A formulação inicial dessa metodologia sofreu adaptações e melhorias ao longo do tempo, em \citeonline{boser1992training} o classificador possuia margem rígida e assumia que existia uma superfície que separa perfeitamente as classes, chamado hoje de \textit{Hard Margin SVM}.
+
+Dado um conjunto de pares $(x_i, y_i)$ é possível formular esse classificador conforme a equação \ref{eq:SVMSeparavel} \cite{James20131}. Nessa formulação as respostas são $y_i \in \{1, -1\}$, $\beta_0 + \sum_{j=1}^{p}{{\beta_i x_{ij}}}$ é o hiperplano de separação e $M$ é a variável de ótimização que diz respeito ao tamanho da margem. 
+
+\begin{equation}
+\begin{split}
+\underset {\beta_0, \beta_1, ..., \beta_p, M}  {\text{Maximizar : }} &{M} \\
+\text{Sujeito a : } \\
+&\sum_{j=1}^{p}{{\beta_j}^2} = 1, \\
+&y_i(\beta_0 + \sum_{j=1}^{p}{{\beta_i x_{ij}}}) \geq M, \forall i = 1, ..., n
+\end{split}
+\label{eq:SVMSeparavel}
+\end{equation}
+
+Em \citeonline{Cortes1995} é demostrada uma alteração na formulação original, fazendo ser possível encontrar uma solução mesmo em problemas que as amostras não sejam completamente separáveis. Isso é feito por meio da introdução de um parâmetro $\epsilon_i$, que diz respeito a penalidade de amostras classificadas erroneamente. Essa alteração na formulação é demonstrada coforme a equação \ref{eq:SVMInseparavel} \cite{James20131}.
+
+\begin{equation}
+\begin{split}
+\underset {\beta_0, ..., \beta_p, \epsilon_1, ..., \epsilon_n, M}  {\text{Maximizar : }} &{M} \\
+\text{Sujeito a : } \\
+&\sum_{j=1}^{p}{{\beta_j}^2} = 1, \\
+&y_i(\beta_0 + \sum_{j=1}^{p}{{\beta_i x_{ij}}}) \geq M(1 - \epsilon_i), \forall i = 1, ..., n, \\
+&\epsilon_i \geq 0,  \sum_{i=1}^{n}{\epsilon_i} \geq C
+\end{split}
+\label{eq:SVMInseparavel}
+\end{equation}
+
+
+
+
+	
+\subsection{\textit{Multilayer Perceptron}}
+
+\section{Métodos de Regressão}
+\subsection{Regressão Linear}
+\subsection{\textit{Ridge Regression}}
+\subsection{\textit{Multilayer Perceptron}}
