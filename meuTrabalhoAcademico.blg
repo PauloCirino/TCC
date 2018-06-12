@@ -32,62 +32,110 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: ./03-elementos-pos-textuais/myRefs.bib
-Repeated entry---line 229 of file ./03-elementos-pos-textuais/myRefs.bib
+Repeated entry---line 279 of file ./03-elementos-pos-textuais/myRefs.bib
  : @misc{Inc2012
  :              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 343 of file ./03-elementos-pos-textuais/myRefs.bib
+Repeated entry---line 393 of file ./03-elementos-pos-textuais/myRefs.bib
  : @book{Goodfellow-et-al-2016
  :                            ,
 I'm skipping whatever remains of this entry
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Too many commas in name 1 of "Braga, A. P., e Carvalho, A. C. P. L. F., e Ludemir, T. B." for entry Braga2007
+while executing---line 2091 of file abntex2-alf.bst
+Too many commas in name 1 of "Braga, A. P., e Carvalho, A. C. P. L. F., e Ludemir, T. B." for entry Braga2007
+while executing---line 2091 of file abntex2-alf.bst
+Too many commas in name 1 of "Braga, A. P., e Carvalho, A. C. P. L. F., e Ludemir, T. B." for entry Braga2007
+while executing---line 2091 of file abntex2-alf.bst
+Too many commas in name 1 of "Braga, A. P., e Carvalho, A. C. P. L. F., e Ludemir, T. B." for entry Braga2007
+while executing---line 2091 of file abntex2-alf.bst
+Too many commas in name 1 of "Braga, A. P., e Carvalho, A. C. P. L. F., e Ludemir, T. B." for entry Braga2007
+while executing---line 2091 of file abntex2-alf.bst
+Too many commas in name 1 of "Braga, A. P., e Carvalho, A. C. P. L. F., e Ludemir, T. B." for entry Braga2007
+while executing---line 2091 of file abntex2-alf.bst
+Too many commas in name 1 of "Braga, A. P., e Carvalho, A. C. P. L. F., e Ludemir, T. B." for entry Braga2007
+while executing---line 2091 of file abntex2-alf.bst
+Too many commas in name 1 of "Braga, A. P., e Carvalho, A. C. P. L. F., e Ludemir, T. B." for entry Braga2007
+while executing---line 2091 of file abntex2-alf.bst
+Too many commas in name 1 of "Braga, A. P., e Carvalho, A. C. P. L. F., e Ludemir, T. B." for entry Braga2007
+while executing---line 2091 of file abntex2-alf.bst
+Too many commas in name 1 of "Braga, A. P., e Carvalho, A. C. P. L. F., e Ludemir, T. B." for entry Braga2007
+while executing---line 2091 of file abntex2-alf.bst
+Too many commas in name 1 of "Braga, A. P., e Carvalho, A. C. P. L. F., e Ludemir, T. B." for entry Braga2007
+while executing---line 2091 of file abntex2-alf.bst
+Too many commas in name 1 of "Braga, A. P., e Carvalho, A. C. P. L. F., e Ludemir, T. B." for entry Braga2007
+while executing---line 2091 of file abntex2-alf.bst
+Too many commas in name 1 of "Braga, A. P., e Carvalho, A. C. P. L. F., e Ludemir, T. B." for entry Braga2007
+while executing---line 2091 of file abntex2-alf.bst
+Too many commas in name 1 of "Braga, A. P., e Carvalho, A. C. P. L. F., e Ludemir, T. B." for entry Braga2007
+while executing---line 2091 of file abntex2-alf.bst
+Too many commas in name 1 of "Braga, A. P., e Carvalho, A. C. P. L. F., e Ludemir, T. B." for entry Braga2007
+while executing---line 2091 of file abntex2-alf.bst
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Too many commas in name 1 of "Braga, A. P., e Carvalho, A. C. P. L. F., e Ludemir, T. B." for entry Braga2007
+while executing---line 2146 of file abntex2-alf.bst
+Too many commas in name 1 of "Braga, A. P., e Carvalho, A. C. P. L. F., e Ludemir, T. B." for entry Braga2007
+while executing---line 2146 of file abntex2-alf.bst
+Too many commas in name 1 of "Braga, A. P., e Carvalho, A. C. P. L. F., e Ludemir, T. B." for entry Braga2007
+while executing---line 2146 of file abntex2-alf.bst
+Too many commas in name 1 of "Braga, A. P., e Carvalho, A. C. P. L. F., e Ludemir, T. B." for entry Braga2007
+while executing---line 2146 of file abntex2-alf.bst
+Too many commas in name 1 of "Braga, A. P., e Carvalho, A. C. P. L. F., e Ludemir, T. B." for entry Braga2007
+while executing---line 2146 of file abntex2-alf.bst
+Too many commas in name 1 of "Braga, A. P., e Carvalho, A. C. P. L. F., e Ludemir, T. B." for entry Braga2007
+while executing---line 2146 of file abntex2-alf.bst
+Too many commas in name 1 of "Braga, A. P., e Carvalho, A. C. P. L. F., e Ludemir, T. B." for entry Braga2007
+while executing---line 2146 of file abntex2-alf.bst
+Too many commas in name 1 of "Braga, A. P., e Carvalho, A. C. P. L. F., e Ludemir, T. B." for entry Braga2007
+while executing---line 2146 of file abntex2-alf.bst
+Too many commas in name 1 of "Braga, A. P., e Carvalho, A. C. P. L. F., e Ludemir, T. B." for entry Braga2007
+while executing---line 2146 of file abntex2-alf.bst
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 37 entries,
+You've used 41 entries,
             6714 wiz_defined-function locations,
-            1423 strings with 16481 characters,
-and the built_in function-call counts, 46561 in all, are:
-= -- 5395
-> -- 861
+            1443 strings with 16997 characters,
+and the built_in function-call counts, 49231 in all, are:
+= -- 5580
+> -- 957
 < -- 1147
-+ -- 1491
-- -- 266
-* -- 2849
-:= -- 5716
-add.period$ -- 135
-call.type$ -- 38
-change.case$ -- 312
-chr.to.int$ -- 64
-cite$ -- 30
-duplicate$ -- 4478
-empty$ -- 2108
-format.name$ -- 1246
-if$ -- 9530
++ -- 1525
+- -- 296
+* -- 3029
+:= -- 6090
+add.period$ -- 148
+call.type$ -- 42
+change.case$ -- 345
+chr.to.int$ -- 68
+cite$ -- 34
+duplicate$ -- 4626
+empty$ -- 2337
+format.name$ -- 1385
+if$ -- 10162
 int.to.chr$ -- 6
 int.to.str$ -- 3
-missing$ -- 616
-newline$ -- 160
-num.names$ -- 150
-pop$ -- 785
+missing$ -- 691
+newline$ -- 177
+num.names$ -- 170
+pop$ -- 887
 preamble$ -- 1
-purify$ -- 136
+purify$ -- 150
 quote$ -- 0
-skip$ -- 4855
+skip$ -- 5002
 stack$ -- 1
-substring$ -- 1854
-swap$ -- 1603
+substring$ -- 1910
+swap$ -- 1657
 text.length$ -- 34
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 1
 warning$ -- 0
-while$ -- 214
+while$ -- 237
 width$ -- 0
-write$ -- 476
-(There were 2 error messages)
+write$ -- 533
+(There were 26 error messages)

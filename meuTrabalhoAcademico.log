@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.5)  4 JUN 2018 19:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.5)  11 JUN 2018 21:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1449,6 +1449,30 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 Package: subeqnarray 2004/04/15 v2.1c subeqnarray package
 \c@subequation=\count280
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count281
+\lst@gtempboxa=\box53
+\lst@token=\toks53
+\lst@length=\count282
+\lst@currlwidth=\dimen282
+\lst@column=\count283
+\lst@pos=\count284
+\lst@lostspace=\dimen283
+\lst@width=\dimen284
+\lst@newlines=\count285
+\lst@lineno=\count286
+\lst@maxwidth=\dimen285
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count287
+\lst@skipnumbers=\count288
+\lst@framebox=\box54
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
 \meuTrabalhoAcademico@idxfile=\write5
 \openout5 = `meuTrabalhoAcademico.idx'.
 
@@ -1464,15 +1488,15 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count281
-\l_MT_multwidth_dim=\dimen282
+\g_MT_multlinerow_int=\count289
+\l_MT_multwidth_dim=\dimen286
 \origjot=\skip292
-\l_MT_shortvdotswithinadjustabove_dim=\dimen283
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen284
-\l_MT_above_intertext_sep=\dimen285
-\l_MT_below_intertext_sep=\dimen286
-\l_MT_above_shortintertext_sep=\dimen287
-\l_MT_below_shortintertext_sep=\dimen288
+\l_MT_shortvdotswithinadjustabove_dim=\dimen287
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen288
+\l_MT_above_intertext_sep=\dimen289
+\l_MT_below_intertext_sep=\dimen290
+\l_MT_above_shortintertext_sep=\dimen291
+\l_MT_below_shortintertext_sep=\dimen292
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2017/01/14 v0.5h Insert pages of external PDF documents (AM)
@@ -1480,17 +1504,17 @@ Package: pdfpages 2017/01/14 v0.5h Insert pages of external PDF documents (AM)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 )
-\AM@pagewidth=\dimen289
-\AM@pageheight=\dimen290
+\AM@pagewidth=\dimen293
+\AM@pageheight=\dimen294
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2017/01/14 v0.5h Pdfpages driver for pdfTeX (AM)
 )
-\AM@pagebox=\box53
-\AM@global@opts=\toks53
-\AM@toc@title=\toks54
-\c@AM@survey=\count282
-\AM@templatesizebox=\box54
+\AM@pagebox=\box55
+\AM@global@opts=\toks54
+\AM@toc@title=\toks55
+\c@AM@survey=\count290
+\AM@templatesizebox=\box56
 )
 \@input{./01-elementos-pre-textuais/capa.aux}
 \openout2 = `./01-elementos-pre-textuais/capa.aux'.
@@ -1504,8 +1528,8 @@ File: pppdftex.def 2017/01/14 v0.5h Pdfpages driver for pdfTeX (AM)
 \openout2 = `./01-elementos-pre-textuais/folhaAprovacao.aux'.
 
 (./01-elementos-pre-textuais/folhaAprovacao.tex)
-Package hyperref Info: Option `colorlinks' set `true' on input line 141.
-Package hyperref Info: Option `breaklinks' set `true' on input line 141.
+Package hyperref Info: Option `colorlinks' set `true' on input line 143.
+Package hyperref Info: Option `breaklinks' set `true' on input line 143.
 
 
 LaTeX Warning: Unused global option(s):
@@ -1525,36 +1549,39 @@ LaTeX Warning: Unused global option(s):
 (./02-elementos-textuais/LinguagemR.aux)
 (./02-elementos-textuais/AprendizadoDeMaquinas.aux)
 (./02-elementos-textuais/EstatisticasDeTeste.aux)
-(./02-elementos-textuais/OPacote.aux)
-(./03-elementos-pos-textuais/referencias.aux)
+(./02-elementos-textuais/OPacote.aux
+
+LaTeX Warning: Label `fig:BuildingMLModel' multiply defined.
+
+) (./03-elementos-pos-textuais/referencias.aux)
 (./03-elementos-pos-textuais/glossario.aux)
 (./03-elementos-pos-textuais/apendices.aux)
 (./03-elementos-pos-textuais/indiceRemissivo.aux))
 \openout1 = `meuTrabalhoAcademico.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 162.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 164.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 162.
-\AtBeginShipoutBox=\box55
-Package hyperref Info: Link coloring ON on input line 162.
+(Font)              scaled to size 11.39996pt on input line 164.
+\AtBeginShipoutBox=\box57
+Package hyperref Info: Link coloring ON on input line 164.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1562,29 +1589,29 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count283
+\c@section@level=\count291
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 162.
-LaTeX Info: Redefining \ref on input line 162.
-LaTeX Info: Redefining \pageref on input line 162.
-LaTeX Info: Redefining \nameref on input line 162.
-\myptabbox=\box56
+LaTeX Info: Redefining \nameref on input line 164.
+LaTeX Info: Redefining \ref on input line 164.
+LaTeX Info: Redefining \pageref on input line 164.
+LaTeX Info: Redefining \nameref on input line 164.
+\myptabbox=\box58
 \myptabboxwidth=\skip293
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count284
-\scratchdimen=\dimen291
-\scratchbox=\box57
-\nofMPsegments=\count285
-\nofMParguments=\count286
-\everyMPshowfont=\toks55
-\MPscratchCnt=\count287
-\MPscratchDim=\dimen292
-\MPnumerator=\count288
-\makeMPintoPDFobject=\count289
-\everyMPtoPDFconversion=\toks56
+\scratchcounter=\count292
+\scratchdimen=\dimen295
+\scratchbox=\box59
+\nofMPsegments=\count293
+\nofMParguments=\count294
+\everyMPshowfont=\toks56
+\MPscratchCnt=\count295
+\MPscratchDim=\dimen296
+\MPnumerator=\count296
+\makeMPintoPDFobject=\count297
+\everyMPtoPDFconversion=\toks57
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1602,7 +1629,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 162.
+LaTeX Info: Redefining \microtypecontext on input line 164.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1618,6 +1645,8 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 
 ABD: EveryShipout initializing macros
+\c@lstlisting=\count298
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
@@ -1626,34 +1655,34 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 File: logoInstituicao.pdf Graphic file (type pdf)
 
 <use logoInstituicao.pdf>
-Package pdftex.def Info: logoInstituicao.pdf used on input line 169.
+Package pdftex.def Info: logoInstituicao.pdf used on input line 171.
 (pdftex.def)             Requested size: 90.99861pt x 128.68575pt.
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
-(Font)              scaled to size 11.39996pt on input line 169.
+(Font)              scaled to size 11.39996pt on input line 171.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 169.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 171.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 169.
+(Font)              scaled to size 11.39996pt on input line 171.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 169.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 171.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 23.63593pt on input line 169.
+(Font)              scaled to size 23.63593pt on input line 171.
 LaTeX Font Info:    Font shape `T1/phv/bx/sc' in size <24.88> not available
-(Font)              Font shape `T1/phv/b/sc' tried instead on input line 169.
+(Font)              Font shape `T1/phv/b/sc' tried instead on input line 171.
 LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
-(Font)              scaled to size 23.63593pt on input line 169.
+(Font)              scaled to size 23.63593pt on input line 171.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 23.63593pt on input line 169.
+(Font)              scaled to size 23.63593pt on input line 171.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 169.
+(Font)              scaled to size 13.67995pt on input line 171.
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
-(Font)              scaled to size 13.67995pt on input line 169.
+(Font)              scaled to size 13.67995pt on input line 171.
 LaTeX Font Info:    Font shape `T1/phv/bx/sc' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/sc' tried instead on input line 169.
+(Font)              Font shape `T1/phv/b/sc' tried instead on input line 171.
 LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
-(Font)              scaled to size 13.67995pt on input line 169.
+(Font)              scaled to size 13.67995pt on input line 171.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 169.
+(Font)              scaled to size 10.40245pt on input line 171.
  [1
 
 
@@ -1665,23 +1694,23 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logoI
 nstituicao.pdf>]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 170.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 172.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 19.70294pt on input line 170.
+(Font)              scaled to size 19.70294pt on input line 172.
 LaTeX Font Info:    Font shape `T1/phv/bx/sc' in size <20.74> not available
-(Font)              Font shape `T1/phv/b/sc' tried instead on input line 170.
+(Font)              Font shape `T1/phv/b/sc' tried instead on input line 172.
 LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
-(Font)              scaled to size 19.70294pt on input line 170.
+(Font)              scaled to size 19.70294pt on input line 172.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 19.70294pt on input line 170.
+(Font)              scaled to size 19.70294pt on input line 172.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 170.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 172.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 16.41594pt on input line 170.
+(Font)              scaled to size 16.41594pt on input line 172.
 LaTeX Font Info:    Font shape `T1/phv/bx/sc' in size <17.28> not available
-(Font)              Font shape `T1/phv/b/sc' tried instead on input line 170.
+(Font)              Font shape `T1/phv/b/sc' tried instead on input line 172.
 LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
-(Font)              scaled to size 16.41594pt on input line 170.
+(Font)              scaled to size 16.41594pt on input line 172.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
@@ -1690,12 +1719,12 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 170.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 172.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 170.
+LaTeX Font Info:    Try loading font information for U+msa on input line 172.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1703,7 +1732,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 170.
+LaTeX Font Info:    Try loading font information for U+msb on input line 172.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1711,7 +1740,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Overfull \hbox (3.07253pt too wide) in paragraph at lines 170--170
+Overfull \hbox (3.07253pt too wide) in paragraph at lines 172--172
 []|\T1/phv/m/n/10.95 (-20) Coorientador:| 
  []
 
@@ -1767,7 +1796,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 \openout2 = `./01-elementos-pre-textuais/listaAlgoritmos.aux'.
 
  (./01-elementos-pre-textuais/listaAlgoritmos.tex
-\c@loadepth=\count290
+\c@loadepth=\count299
 \cftbeforealgocfskip=\skip294
 \cftalgocfindent=\skip295
 \cftalgocfnumwidth=\skip296
@@ -1804,11 +1833,11 @@ LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 39.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 39.
+(Font)              scaled to size 13.67995pt on input line 45.
 
-Overfull \hbox (0.27095pt too wide) detected at line 40
+Overfull \hbox (0.27095pt too wide) detected at line 46
 \T1/phv/b/n/12 AP NDICE  A  --   
  []
 
@@ -1845,7 +1874,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 
 
 ]
-<./04-figuras/R-envs.png, id=308, 907.39pt x 222.8325pt>
+<./04-figuras/R-envs.png, id=326, 907.39pt x 222.8325pt>
 File: ./04-figuras/R-envs.png Graphic file (type png)
 
 <use ./04-figuras/R-envs.png>
@@ -1858,7 +1887,7 @@ Package pdftex.def Info: ./04-figuras/R-envs.png used on input line 27.
                                                   \fi \fi 
 l.38 
       <./04-figuras/R-envs.png>]
-<./04-figuras/NRPackages.png, id=330, 382.42876pt x 401.5pt>
+<./04-figuras/NRPackages.png, id=348, 382.42876pt x 401.5pt>
 File: ./04-figuras/NRPackages.png Graphic file (type png)
 
 <use ./04-figuras/NRPackages.png>
@@ -1869,13 +1898,13 @@ ure.3.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.192 \include{./02-elementos-textuais/LinguagemR}
+l.194 \include{./02-elementos-textuais/LinguagemR}
                                                    <./04-figuras/NRPackages.png
 >]
 \openout2 = `./02-elementos-textuais/AprendizadoDeMaquinas.aux'.
 
  (./02-elementos-textuais/AprendizadoDeMaquinas.tex
-<./04-figuras/MLForm.png, id=352, 271.0125pt x 162.6075pt>
+<./04-figuras/MLForm.png, id=370, 271.0125pt x 162.6075pt>
 File: ./04-figuras/MLForm.png Graphic file (type png)
 
 <use ./04-figuras/MLForm.png>
@@ -1886,7 +1915,7 @@ Package pdftex.def Info: ./04-figuras/MLForm.png used on input line 21.
 
 
 ]
-<./04-figuras/MLProblems.png, id=363, 614.295pt x 316.18124pt>
+<./04-figuras/MLProblems.png, id=381, 614.295pt x 316.18124pt>
 File: ./04-figuras/MLProblems.png Graphic file (type png)
 
 <use ./04-figuras/MLProblems.png>
@@ -1928,74 +1957,137 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 7.59998pt on input line 103.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 5.69998pt on input line 103.
- [16]) [17]
+ [16] [17] <./04-figuras/mlp.png, id=494, 468.75125pt x 351.3125pt>
+File: ./04-figuras/mlp.png Graphic file (type png)
+
+<use ./04-figuras/mlp.png>
+Package pdftex.def Info: ./04-figuras/mlp.png used on input line 156.
+(pdftex.def)             Requested size: 364.00139pt x 272.80579pt.
+
+
+LaTeX Warning: Reference `eq:softmax' on page 18 undefined on input line 161.
+
+[18pdfTeX warning (ext4): destination with the same identifier (name{figure.4.5
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.165 \end{equation}
+                     <./04-figuras/mlp.png>] [19]) [20]
 \openout2 = `./02-elementos-textuais/EstatisticasDeTeste.aux'.
 
- (./02-elementos-textuais/EstatisticasDeTeste.tex [18
+
+(./02-elementos-textuais/EstatisticasDeTeste.tex [21
 
 
 
-])
-[19]
+]) [22]
 \openout2 = `./02-elementos-textuais/OPacote.aux'.
 
- (./02-elementos-textuais/OPacote.tex) [20
+
+(./02-elementos-textuais/OPacote.tex
+<./04-figuras/BuildingNewMethod.png, id=558, 794.97pt x 614.295pt>
+File: ./04-figuras/BuildingNewMethod.png Graphic file (type png)
+
+<use ./04-figuras/BuildingNewMethod.png>
+Package pdftex.def Info: ./04-figuras/BuildingNewMethod.png used on input line 
+13.
+(pdftex.def)             Requested size: 455.0pt x 351.59528pt.
+ [23
 
 
 
-]
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.6}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.20 N
+      esse cap√≠tulo ser√° descrito cada uma dessas etapas e como, o pacote ...
+ <./04-figuras/BuildingNewMethod.png>] [24]
+<./04-figuras/UseCase.png, id=580, 686.565pt x 343.7643pt>
+File: ./04-figuras/UseCase.png Graphic file (type png)
+
+<use ./04-figuras/UseCase.png>
+Package pdftex.def Info: ./04-figuras/UseCase.png used on input line 51.
+(pdftex.def)             Requested size: 455.0pt x 227.8188pt.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2015/06/04 1.6 listings language file
+) [25pdfTeX warning (ext4): destination with the same identifier (name{figure.6
+.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.59 install.
+             packages('devtools') <./04-figuras/UseCase.png>]
+Overfull \hbox (10.12286pt too wide) in paragraph at lines 77--78
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (3.28282pt too wide) in paragraph at lines 80--81
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[26]) [27]
 \openout2 = `./03-elementos-pos-textuais/referencias.aux'.
 
-
-(./03-elementos-pos-textuais/referencias.tex (./meuTrabalhoAcademico.bbl
-(./meuTrabalhoAcademico.brf)
+ (./03-elementos-pos-textuais/referencias.tex
+(./meuTrabalhoAcademico.bbl (./meuTrabalhoAcademico.brf)
 \tf@brf=\write6
 \openout6 = `meuTrabalhoAcademico.brf'.
 
 
 bibitemlist
+[28
 
-Underfull \hbox (badness 4872) in paragraph at lines 97--97
+
+
+]
+Underfull \hbox (badness 4872) in paragraph at lines 114--114
 []\T1/phv/m/n/12 (+20) LOWRY, R.; RI-CHARD, R. Con-cepts and Ap-pli-ca-ti-ons o
 f In-fe-ren-tial Sta-tis-tics.
  []
 
 
-Underfull \hbox (badness 6675) in paragraph at lines 97--97
+Underfull \hbox (badness 6675) in paragraph at lines 114--114
 \T1/phv/b/n/12 http://vassarstats.net/textbook/\T1/phv/m/n/12 (+20) , 2014. Dis
 -po-nÌ-vel em: [][]$<[]http : / / doer . col . org / handle /
  []
 
-[21
 
-
-
-]
-Underfull \hbox (badness 6825) in paragraph at lines 139--139
+Underfull \hbox (badness 6825) in paragraph at lines 156--156
 \T1/phv/b/n/12 veil-lance state'\T1/phv/m/n/12 (+20) . 2013. Dis-po-nÌ-vel em: 
 [][]$<[]https : / / www . washingtonpost . com / politics /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 \T1/phv/m/n/12 (+20) edward-[]snowden-[]says-[]motive-[]behind-[]leaks-[]was-[]
 to-[]expose-[]surveillance-[]state / 2013 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 \T1/phv/m/n/12 (+20) 06 / 09 / aa3f0804-[]d13b-[]11e2-[]a73e-[]826d299^^[459{\ 
 _ }story . html ? tid = pm{\ _ }politics{\ _
  []
 
-[22])) [23]
+[29])) [30]
 \openout2 = `./03-elementos-pos-textuais/glossario.aux'.
 
  (./03-elementos-pos-textuais/glossario.tex)
 \openout2 = `./03-elementos-pos-textuais/apendices.aux'.
 
 
-(./03-elementos-pos-textuais/apendices.tex [24
+(./03-elementos-pos-textuais/apendices.tex [31
 
 
 
@@ -2003,7 +2095,7 @@ _ }story . html ? tid = pm{\ _ }politics{\ _
 
 
 ]
-<manual.pdf, id=562, 597.50829pt x 845.0471pt>
+<manual.pdf, id=754, 597.50829pt x 845.0471pt>
 File: manual.pdf Graphic file (type pdf)
  <use manual.pdf>
 Package pdftex.def Info: manual.pdf used on input line 19.
@@ -2013,7 +2105,7 @@ File: manual.pdf Graphic file (type pdf)
 <use manual.pdf>
 Package pdftex.def Info: manual.pdf used on input line 19.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
- <manual.pdf, id=565, page=1, 597.50829pt x 845.0471pt>
+ <manual.pdf, id=757, page=1, 597.50829pt x 845.0471pt>
 File: manual.pdf Graphic file (type pdf)
 
 <use manual.pdf, page 1>
@@ -2023,7 +2115,7 @@ File: manual.pdf Graphic file (type pdf)
  <use manual.pdf, page 1>
 Package pdftex.def Info: manual.pdf, page1 used on input line 19.
 (pdftex.def)             Requested size: 784.6471pt x 1109.71475pt.
- [25
+ [32
 
 ]
 File: manual.pdf Graphic file (type pdf)
@@ -2040,7 +2132,7 @@ File: manual.pdf Graphic file (type pdf)
 Package pdftex.def Info: manual.pdf, page1 used on input line 19.
 (pdftex.def)             Requested size: 784.6471pt x 1109.71475pt.
 
-[26 <./manual.pdf>] <manual.pdf, id=597, page=2, 597.50829pt x 845.0471pt>
+[33 <./manual.pdf>] <manual.pdf, id=787, page=2, 597.50829pt x 845.0471pt>
 File: manual.pdf Graphic file (type pdf)
 
 <use manual.pdf, page 2>
@@ -2055,7 +2147,7 @@ File: manual.pdf Graphic file (type pdf)
 Package pdftex.def Info: manual.pdf, page2 used on input line 19.
 (pdftex.def)             Requested size: 784.6471pt x 1109.71475pt.
 
-[27 <./manual.pdf>] <manual.pdf, id=612, page=3, 597.50829pt x 845.0471pt>
+[34 <./manual.pdf>] <manual.pdf, id=802, page=3, 597.50829pt x 845.0471pt>
 File: manual.pdf Graphic file (type pdf)
 
 <use manual.pdf, page 3>
@@ -2070,7 +2162,7 @@ File: manual.pdf Graphic file (type pdf)
 Package pdftex.def Info: manual.pdf, page3 used on input line 19.
 (pdftex.def)             Requested size: 784.6471pt x 1109.71475pt.
 
-[28 <./manual.pdf>] <manual.pdf, id=617, page=4, 597.50829pt x 845.0471pt>
+[35 <./manual.pdf>] <manual.pdf, id=807, page=4, 597.50829pt x 845.0471pt>
 File: manual.pdf Graphic file (type pdf)
 
 <use manual.pdf, page 4>
@@ -2085,7 +2177,7 @@ File: manual.pdf Graphic file (type pdf)
 Package pdftex.def Info: manual.pdf, page4 used on input line 19.
 (pdftex.def)             Requested size: 784.6471pt x 1109.71475pt.
 
-[29 <./manual.pdf>] <manual.pdf, id=625, page=5, 597.50829pt x 845.0471pt>
+[36 <./manual.pdf>] <manual.pdf, id=815, page=5, 597.50829pt x 845.0471pt>
 File: manual.pdf Graphic file (type pdf)
 
 <use manual.pdf, page 5>
@@ -2100,7 +2192,7 @@ File: manual.pdf Graphic file (type pdf)
 Package pdftex.def Info: manual.pdf, page5 used on input line 19.
 (pdftex.def)             Requested size: 784.6471pt x 1109.71475pt.
 
-[30 <./manual.pdf>] <manual.pdf, id=630, page=6, 597.50829pt x 845.0471pt>
+[37 <./manual.pdf>] <manual.pdf, id=821, page=6, 597.50829pt x 845.0471pt>
 File: manual.pdf Graphic file (type pdf)
 
 <use manual.pdf, page 6>
@@ -2115,7 +2207,7 @@ File: manual.pdf Graphic file (type pdf)
 Package pdftex.def Info: manual.pdf, page6 used on input line 19.
 (pdftex.def)             Requested size: 784.6471pt x 1109.71475pt.
 
-[31 <./manual.pdf>] <manual.pdf, id=636, page=7, 597.50829pt x 845.0471pt>
+[38 <./manual.pdf>] <manual.pdf, id=827, page=7, 597.50829pt x 845.0471pt>
 File: manual.pdf Graphic file (type pdf)
 
 <use manual.pdf, page 7>
@@ -2130,7 +2222,7 @@ File: manual.pdf Graphic file (type pdf)
 Package pdftex.def Info: manual.pdf, page7 used on input line 19.
 (pdftex.def)             Requested size: 784.6471pt x 1109.71475pt.
 
-[32 <./manual.pdf>] <manual.pdf, id=641, page=8, 597.50829pt x 845.0471pt>
+[39 <./manual.pdf>] <manual.pdf, id=832, page=8, 597.50829pt x 845.0471pt>
 File: manual.pdf Graphic file (type pdf)
 
 <use manual.pdf, page 8>
@@ -2145,7 +2237,7 @@ File: manual.pdf Graphic file (type pdf)
 Package pdftex.def Info: manual.pdf, page8 used on input line 19.
 (pdftex.def)             Requested size: 784.6471pt x 1109.71475pt.
 
-[33 <./manual.pdf>] <manual.pdf, id=646, page=9, 597.50829pt x 845.0471pt>
+[40 <./manual.pdf>] <manual.pdf, id=837, page=9, 597.50829pt x 845.0471pt>
 File: manual.pdf Graphic file (type pdf)
 
 <use manual.pdf, page 9>
@@ -2160,7 +2252,7 @@ File: manual.pdf Graphic file (type pdf)
 Package pdftex.def Info: manual.pdf, page9 used on input line 19.
 (pdftex.def)             Requested size: 784.6471pt x 1109.71475pt.
 
-[34 <./manual.pdf>] <manual.pdf, id=651, page=10, 597.50829pt x 845.0471pt>
+[41 <./manual.pdf>] <manual.pdf, id=842, page=10, 597.50829pt x 845.0471pt>
 File: manual.pdf Graphic file (type pdf)
 
 <use manual.pdf, page 10>
@@ -2175,7 +2267,7 @@ File: manual.pdf Graphic file (type pdf)
 Package pdftex.def Info: manual.pdf, page10 used on input line 19.
 (pdftex.def)             Requested size: 784.6471pt x 1109.71475pt.
 
-[35 <./manual.pdf>] <manual.pdf, id=656, page=11, 597.50829pt x 845.0471pt>
+[42 <./manual.pdf>] <manual.pdf, id=847, page=11, 597.50829pt x 845.0471pt>
 File: manual.pdf Graphic file (type pdf)
 
 <use manual.pdf, page 11>
@@ -2190,7 +2282,7 @@ File: manual.pdf Graphic file (type pdf)
 Package pdftex.def Info: manual.pdf, page11 used on input line 19.
 (pdftex.def)             Requested size: 784.6471pt x 1109.71475pt.
 
-[36 <./manual.pdf>] <manual.pdf, id=661, page=12, 597.50829pt x 845.0471pt>
+[43 <./manual.pdf>] <manual.pdf, id=853, page=12, 597.50829pt x 845.0471pt>
 File: manual.pdf Graphic file (type pdf)
 
 <use manual.pdf, page 12>
@@ -2205,7 +2297,7 @@ File: manual.pdf Graphic file (type pdf)
 Package pdftex.def Info: manual.pdf, page12 used on input line 19.
 (pdftex.def)             Requested size: 784.6471pt x 1109.71475pt.
 
-[37 <./manual.pdf>] <manual.pdf, id=667, page=13, 597.50829pt x 845.0471pt>
+[44 <./manual.pdf>] <manual.pdf, id=858, page=13, 597.50829pt x 845.0471pt>
 File: manual.pdf Graphic file (type pdf)
 
 <use manual.pdf, page 13>
@@ -2220,7 +2312,7 @@ File: manual.pdf Graphic file (type pdf)
 Package pdftex.def Info: manual.pdf, page13 used on input line 19.
 (pdftex.def)             Requested size: 784.6471pt x 1109.71475pt.
 
-[38 <./manual.pdf>] <manual.pdf, id=672, page=14, 597.50829pt x 845.0471pt>
+[45 <./manual.pdf>] <manual.pdf, id=863, page=14, 597.50829pt x 845.0471pt>
 File: manual.pdf Graphic file (type pdf)
 
 <use manual.pdf, page 14>
@@ -2235,7 +2327,7 @@ File: manual.pdf Graphic file (type pdf)
 Package pdftex.def Info: manual.pdf, page14 used on input line 19.
 (pdftex.def)             Requested size: 784.6471pt x 1109.71475pt.
 
-[39 <./manual.pdf>])
+[46 <./manual.pdf>])
 \openout2 = `./03-elementos-pos-textuais/indiceRemissivo.aux'.
 
  (./03-elementos-pos-textuais/indiceRemissivo.tex
@@ -2250,8 +2342,8 @@ No file meuTrabalhoAcademico.ind.
 \tf@toc=\write9
 \openout9 = `meuTrabalhoAcademico.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 215.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 215.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 207.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 207.
  (./meuTrabalhoAcademico.aux (./01-elementos-pre-textuais/agradecimentos.aux)
 (./01-elementos-pre-textuais/epigrafe.aux)
 (./01-elementos-pre-textuais/resumoPt.aux)
@@ -2271,51 +2363,56 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 215.
 (./03-elementos-pos-textuais/glossario.aux)
 (./03-elementos-pos-textuais/apendices.aux)
 (./03-elementos-pos-textuais/indiceRemissivo.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 215.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 215.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 207.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 207.
 Package rerunfilecheck Info: File `meuTrabalhoAcademico.brf' has not changed.
-(rerunfilecheck)             Checksum: C30742C273E858D4EB46FA0A685956B5;3145.
+(rerunfilecheck)             Checksum: F0B9CF626D0AC7ADB7CCD4E688C6F686;3954.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 215.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 207.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 27453 strings out of 492995
- 479905 string characters out of 6132704
- 660934 words of memory out of 5000000
- 29901 multiletter control sequences out of 15000+600000
- 105506 words of font info for 282 fonts, out of 8000000 for 9000
+ 30074 strings out of 492995
+ 513259 string characters out of 6132704
+ 747663 words of memory out of 5000000
+ 32406 multiletter control sequences out of 15000+600000
+ 106985 words of font info for 290 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 60i,20n,54p,767b,4086s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,20n,76p,767b,6727s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc
 }</usr/local/texlive/2017/texmf-dist/fonts/type1/public/inconsolata/Inconsolata
 -zi4r.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-ex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.
-pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pf
-b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2
-017/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2017/te
-xmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/f
-onts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1
-/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times
-/utmri8a.pfb>
-Output written on meuTrabalhoAcademico.pdf (51 pages, 524327 bytes).
+bx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cme
+x10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6
+.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.p
+fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr
+/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local
+/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2017/texmf
+-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/font
+s/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/ur
+w/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/ut
+mri8a.pfb>
+Output written on meuTrabalhoAcademico.pdf (58 pages, 844246 bytes).
 PDF statistics:
- 900 PDF objects out of 1000 (max. 8388607)
- 793 compressed objects within 8 object streams
- 156 named destinations out of 1000 (max. 500000)
- 45035 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1134 PDF objects out of 1200 (max. 8388607)
+ 1009 compressed objects within 11 object streams
+ 236 named destinations out of 1000 (max. 500000)
+ 46634 words of extra memory for PDF output out of 51595 (max. 10000000)
 

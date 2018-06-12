@@ -12,11 +12,23 @@
 \textbf{CoRR}, abs/1603.04467, 2016.
 Dispon{\'\i}vel em: \url{http://arxiv.org/abs/1603.04467}.}
 
+\bibitem[Almeida, Hidalgo e Yamakami 2011]{zezim}
+\abntrefinfo{Almeida, Hidalgo e Yamakami}{ALMEIDA; HIDALGO; YAMAKAMI}{2011}
+{ALMEIDA, T.~A.; HIDALGO, J. M.~G.; YAMAKAMI, A. \textbf{{Contributions to the
+  study of SMS spam filtering: new collection and results}}. [S.l.]:
+  Proceedings of the 11th ACM symposium on Document engineering, 2011.
+  259--262~p.}
+
 \bibitem[Boser, Guyon e Vapnik 1992]{boser1992training}
 \abntrefinfo{Boser, Guyon e Vapnik}{BOSER; GUYON; VAPNIK}{1992}
 {BOSER, B.~E.; GUYON, I.~M.; VAPNIK, V.~N. A training algorithm for optimal
   margin classifiers. In:  ACM. \textbf{Proceedings of the fifth annual
   workshop on Computational learning theory}. [S.l.], 1992. p. 144--152.}
+
+\bibitem[Braga A.~P. 2007]{Braga2007}
+\abntrefinfo{Braga A.~P.}{BRAGA A.~P.}{2007}
+{BRAGA A.~P., e. C. A. C. P. L. F. e. L. T.~B. \textbf{{Redes neurais
+  artificiais: teoria e aplicações}}. [S.l.]: LTC Editora, 2007.}
 
 \bibitem[Casella e Berger 2002]{Casella2002}
 \abntrefinfo{Casella e Berger}{CASELLA; BERGER}{2002}
@@ -82,6 +94,11 @@ ISBN 978-1-4614-7137-0. Dispon{\'\i}vel em:
 {KERNS, G.~J. \textbf{{Introduction to probability and statistics using R}}.
   [S.l.]: [s.n.], 2010.
 ISBN 0557249791.}
+
+\bibitem[LeCun 1998]{lecun}
+\abntrefinfo{LeCun}{LECUN}{1998}
+{LECUN, Y. \textbf{{The MNIST database of handwritten digits}}. [S.l.: s.n.],
+  1998.}
 
 \bibitem[Lessig e Stallman 2002]{Lessig2002}
 \abntrefinfo{Lessig e Stallman}{LESSIG; STALLMAN}{2002}
@@ -163,6 +180,11 @@ Dispon{\'\i}vel em: \url{https://www.top500.org/lists/2017/11/}.}
   Open Source Software Revolution}. MIT Press, 2017.  (History of Computing).
 ISBN 9780262036474. Dispon{\'\i}vel em:
   \url{https://books.google.com.br/books?id=MXosDwAAQBAJ}.}
+
+\bibitem[{van Wieringen} 2015]{Wieringen2015}
+\abntrefinfo{{van Wieringen}}{{van Wieringen}}{2015}
+{{van Wieringen}, W.~N. {Lecture notes on ridge regression}.
+\textbf{ArXiv e-prints}, set. 2015.}
 
 \bibitem[Vapnik e Chervonenkis 1971]{Vapnik1971}
 \abntrefinfo{Vapnik e Chervonenkis}{VAPNIK; CHERVONENKIS}{1971}

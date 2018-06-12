@@ -24,17 +24,23 @@
 \contentsline {subsection}{\numberline {4.3.1}\textit {k Nearest Neighbours}}{15}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}\textit {Support Vector Machines}}{16}{subsection.4.3.2}
 \contentsline {subsection}{\numberline {4.3.3}\textit {Multilayer Perceptron}}{17}{subsection.4.3.3}
-\contentsline {section}{\numberline {4.4}M\IeC {\'e}todos de Regress\IeC {\~a}o}{17}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Regress\IeC {\~a}o Linear}{17}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}\textit {Ridge Regression}}{17}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}\textit {Multilayer Perceptron}}{17}{subsection.4.4.3}
-\contentsline {chapter}{\chapternumberline {5}Estat\IeC {\'\i }sticas de teste}{18}{chapter.5}
-\contentsline {section}{\numberline {5.1}Defini\IeC {\c c}\IeC {\~a}o de estat\IeC {\'\i }stica de teste}{18}{section.5.1}
-\contentsline {section}{\numberline {5.2}Teste pareado}{18}{section.5.2}
-\contentsline {section}{\numberline {5.3}Testes param\IeC {\'e}trico e n\IeC {\~a}o-param\IeC {\'e}trico}{19}{section.5.3}
-\contentsline {chapter}{\chapternumberline {6}O Software}{20}{chapter.6}
-\contentsline {chapter}{Refer\^encias}{21}{section*.14}
+\contentsline {section}{\numberline {4.4}M\IeC {\'e}todos de Regress\IeC {\~a}o}{19}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Regress\IeC {\~a}o Linear}{19}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}\textit {Ridge Regression}}{19}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}\textit {Multilayer Perceptron}}{20}{subsection.4.4.3}
+\contentsline {chapter}{\chapternumberline {5}Estat\IeC {\'\i }sticas de teste}{21}{chapter.5}
+\contentsline {section}{\numberline {5.1}Defini\IeC {\c c}\IeC {\~a}o de estat\IeC {\'\i }stica de teste}{21}{section.5.1}
+\contentsline {section}{\numberline {5.2}Teste pareado}{21}{section.5.2}
+\contentsline {section}{\numberline {5.3}Testes param\IeC {\'e}trico e n\IeC {\~a}o-param\IeC {\'e}trico}{22}{section.5.3}
+\contentsline {chapter}{\chapternumberline {6}O pacote MLAT }{23}{chapter.6}
+\contentsline {section}{\numberline {6.1}M\IeC {\'e}todos Baseline}{24}{section.6.1}
+\contentsline {section}{\numberline {6.2}M\IeC {\'e}tricas de Testes}{24}{section.6.2}
+\contentsline {section}{\numberline {6.3}Bases de Teste}{24}{section.6.3}
+\contentsline {section}{\numberline {6.4}Realiza\IeC {\c c}\IeC {\~a}o do Experimento}{25}{section.6.4}
+\contentsline {section}{\numberline {6.5}An\IeC {\'a}lise dos Resultados}{25}{section.6.5}
+\contentsline {section}{\numberline {6.6}Uso do MLAT}{25}{section.6.6}
+\contentsline {chapter}{Refer\^encias}{28}{section*.14}
 \vspace {\cftbeforepartskip }
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
-\contentsline {part}{Ap\^endices}{24}{section*.15}
-\contentsline {appendix}{\chapternumberline {A}Manual do pacote MLAT}{25}{appendix.A}
+\contentsline {part}{Ap\^endices}{31}{section*.15}
+\contentsline {appendix}{\chapternumberline {A}Manual do pacote MLAT}{32}{appendix.A}

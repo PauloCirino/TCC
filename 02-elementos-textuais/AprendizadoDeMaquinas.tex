@@ -24,7 +24,7 @@ Segundo \citeonline{Cherkassky2007}, o processo de aprendizado é definido como 
 
 \citeonline{Cherkassky2007} explica que o \textit{Gerador} produz aleatoriamente, com distribuição de probabilidade $p(x)$, vetores $x \in {\mathbb {R}} ^{n}$, que são as características. O \textit{Sistema} é capaz de produzir, com probabilidade $p(y | x)$, saídas $y = g(x) + \epsilon$ em que $\epsilon$ é um ruido branco de $\mu = 0$. De forma geral, o \textit{Aprendizado de Máquina} é capaz de implementar uma função $\hat{y} = f(x, \omega)$, $\omega \in \Omega$, em que $\Omega$ é conjunto de parâmetros da função $f$.
 
-O aprendizado de máquinas clássico diz respeito à aprender pelo exemplo, que é definido como um conjunto de dados, previamente obtidos pelo \textit{Gerador} e \textit{Sistema}, composto por variáveis quantitativas e qualitativas que são características do problema. Na situação onde existe uma variável resposta, o aprendizado é chamado de supervisionado, na situação onde essa variável não existe, o problema é definido como aprendizado não supervisionado. A figura \ref{fig:MLProblems} ilustra essa taxonomia, bem como algumas de suas sub-divisões.
+O aprendizado de máquinas clássico diz respeito à aprender pelo exemplo, que é definido como um conjunto de dados, previamente obtidos pelo \textit{Gerador} e \textit{Sistema}, composto por variáveis quantitativas e qualitativas que são características do problema. Na situação onde existe uma variável resposta, o aprendizado é chamado de supervisionado, na situação onde essa variável não existe, o problema é definido como aprendizado não supervisionado. A figura \ref{fig:MLProblems} ilustra essa taxonomia, bem como algumas de suas subdivisões.
 
 
 \begin{figure}[!htb]
@@ -78,21 +78,21 @@ L(y, f(x, \omega)) = d(y, f(x, \omega))
 Nesse capítulo serão abordados os métodos de aprendizados implementados no pacote MLAT \cite{PauloCirinoMLAT}. 
 
 \subsection{\textit{k Nearest Neighbours}}
-O método \textit{k Nearest Neighbours} (\textbf{kNN}) é o algoritmo não paramétrico mais simples e conhecido \cite{James20131} . Seu funcionamento se dá de forma que a predição de uma amostra desconhecida é a moda das $k$ amostras mais próximas. De forma gernérica sua implementação pode ser feita utilizando o pseudocódigo abaixo adaptado do trabalho de \citeonline{articleTay} :
+O método \textit{k Nearest Neighbours} (\textbf{kNN}) é o algoritmo não paramétrico de classificação mais simples e conhecido \cite{James20131} . Seu funcionamento se dá de forma que a predição de uma amostra desconhecida é a moda das $k$ amostras mais próximas. De forma genérica sua implementação pode ser feita utilizando o pseudocódigo abaixo adaptado do trabalho de \citeonline{articleTay} :
 
 \input{./07-algoritmos/knn} 
 
 É importante ressaltar algumas características do kNN, como sua simplicidade de implementação e a não existência de uma etapa de treinamento. Além disso, o método é capaz de produzir superfices de decisão não lineares e é robusto, dado uma escolha adequada do parâmetro $k$, a conjuntos ruidosos.
 
-Entretanto esse algorítimo se baseia na memória das amostras conhecidas, fazendo com que ele não seja capaz de generalizar sua supercie de decisão para novas amostras fora do espaço conhecido. Outra consequência de ser um sistema baseado em memória é sua complexidade $O(n)$, para espaço e tempo, no momento de predição. 
+Entretanto esse algoritmo se baseia na memória das amostras conhecidas, fazendo com que ele não seja capaz de generalizar sua superfície de decisão para novas amostras fora do espaço conhecido. Outra consequência de ser um sistema baseado em memória é sua complexidade $O(n)$, para espaço e tempo, no momento de predição. 
 
 
 \subsection{\textit{Support Vector Machines}}
-As \textit{Support Vector Machines}, em português Máquinas de Vetor de Suporte, foram inicialmente propostas em \citeonline{boser1992training}. Esse método foi produzido como uma alternativa que, diferente de outros algorítmos tradicionais, não miniza o erro do classificador, mas, sim maximizar a margem de separação entre duas classes \cite{James20131}. O intúito para isso é produzir um classificar que seja capaz de encontrar uma superfície de decisão mais genérica, e consequentemente, que tenha melhor desempenho em amostras desconhecidas \cite{Cortes1995}.
+As \textit{Support Vector Machines}, em português Máquinas de Vetor de Suporte, foram inicialmente propostas em \citeonline{boser1992training}. Esse método foi produzido como uma alternativa que, diferente de outros algoritmos tradicionais, não minimiza o erro do classificador, mas, sim maximiza a margem de separação entre duas classes \cite{James20131}. O intuito disso é produzir um classificar que seja capaz de encontrar uma superfície de decisão mais genérica, e consequentemente, que tenha melhor desempenho em amostras desconhecidas \cite{Cortes1995}.
 
-A formulação inicial dessa metodologia sofreu adaptações e melhorias ao longo do tempo, em \citeonline{boser1992training} o classificador possuia margem rígida e assumia que existia uma superfície que separa perfeitamente as classes, chamado hoje de \textit{Hard Margin SVM}.
+A formulação inicial dessa metodologia sofreu adaptações e melhorias ao longo do tempo, em \citeonline{boser1992training} o classificador possuía margem rígida e assumia que existia uma superfície que separa perfeitamente as classes, chamado hoje de \textit{Hard Margin SVM}.
 
-Dado um conjunto de pares $(x_i, y_i)$ é possível formular esse classificador conforme a equação \ref{eq:SVMSeparavel} \cite{James20131}. Nessa formulação as respostas são $y_i \in \{1, -1\}$, $\beta_0 + \sum_{j=1}^{p}{{\beta_i x_{ij}}}$ é o hiperplano de separação e $M$ é a variável de ótimização que diz respeito ao tamanho da margem. 
+Dado um conjunto de pares $(x_i, y_i)$ é possível formular esse classificador conforme a equação \ref{eq:SVMSeparavel} \cite{James20131}. Nessa formulação as respostas são $y_i \in \{1, -1\}$, $\beta_0 + \sum_{j=1}^{p}{{\beta_i x_{ij}}}$ é o hiperplano de separação e $M$ é a variável de otimização que diz respeito ao tamanho da margem. 
 
 \begin{equation}
 \begin{split}
@@ -104,7 +104,7 @@ Dado um conjunto de pares $(x_i, y_i)$ é possível formular esse classificador 
 \label{eq:SVMSeparavel}
 \end{equation}
 
-Em \citeonline{Cortes1995} é demostrada uma alteração na formulação original, fazendo ser possível encontrar uma solução mesmo em problemas que as amostras não sejam completamente separáveis. Isso é feito por meio da introdução de um parâmetro $\epsilon_i$, que diz respeito a penalidade de amostras classificadas erroneamente. Essa alteração na formulação é demonstrada coforme a equação \ref{eq:SVMInseparavel} \cite{James20131}.
+Em \citeonline{Cortes1995} é demostrada uma alteração na formulação original, fazendo ser possível encontrar uma solução mesmo em problemas que as amostras não sejam completamente separáveis. Isso é feito por meio da introdução de um parâmetro $\epsilon_i$, que diz respeito a penalidade de amostras classificadas erroneamente. Essa alteração na formulação, conhecida como \textit{Soft Margin} SVM, é demonstrada pela equação \ref{eq:SVMInseparavel} \cite{James20131}.
 
 \begin{equation}
 \begin{split}
@@ -117,13 +117,91 @@ Em \citeonline{Cortes1995} é demostrada uma alteração na formulação origina
 \label{eq:SVMInseparavel}
 \end{equation}
 
+As equações \ref{eq:SVMSeparavel} e \ref{eq:SVMInseparavel} definem modelos de aprendizado com uma superfície de decisão linear. Para solucionar essa questão foi introduzido, em \citeonline{boser1992training} , o conceito conhecido como \textit{Kernel Trick}.
 
-
-
+A implementação do \textit{Kernel Trick} é feita substituindo o produto interno, $f(x) = \beta_0 + \sum_{j=1}^{p}{{\beta_i x_{ij}}}$ por uma função genérica $K(x_i)$ não linear \cite{James20131}. Essa função pode introduzir termos de ordem superior ou até mesmo aplicar funções não lineares, tudo com o objetivo de facilitar a separabilidade das amostras. 
 	
 \subsection{\textit{Multilayer Perceptron}}
+\label{sssec:MLPClassificationSubSection}
+Uma rede neural artificial é formada por um conjunto de nodos, chamados de neurônios, com capacidade de processamento local e independe agrupados em uma topologia definida \cite{Braga2007}.  O modelo \textit{Multilayer Perceptron} (MLP) é um tipo de rede neural artificial \textit{feedfoward} que utiliza em sua camada intermediária neurônios perceptron \cite{AbadiABBCCCDDDG16}. 
+
+\begin{equation}
+y = \phi(\sum_{i = 1}^{m}{x_i  w_i} + b)
+\label{eq:perceptron}
+\end{equation}
+
+O neurônio perceptron, definido pela equação \ref{eq:perceptron}, é o resultado da combinação linear dos termos das entradas $x_i$ ponderados por pesos$w_i$ e um bias $b$ após a introdução de uma não linearidade pela função de ativação $\phi$. A função de ativação $\phi$ pode assumir formatos diferentes, todavia, tradicionalmente ela é logística, tangente hiperbólica ou RELU conforme equações \ref{eq:act1}, \ref{eq:act2} e \ref{eq:act3} respectivamente \cite{Goodfellow-et-al-2016}.
+
+\begin{equation}
+\phi(z) = \frac{1}{1 + e^{-z}}
+\label{eq:act1}
+\end{equation}
+
+\begin{equation}
+\phi(z) = \frac{e^z - e^{-z}}{e^z + e^{-z}}
+\label{eq:act2}
+\end{equation}
+
+\begin{equation}
+\phi(z) = max(z, 0)
+\label{eq:act3}
+\end{equation}
+%
+
+A topologia da MLP, ilustrada na imagem \ref{fig:MLPDraw}, é compostas por 3 tipos de camadas : entrada, intermediária ou escondida, e, saída  \cite{Braga2007}. A rede possui uma camada de entrada com tamanho definido pelo número de variáveis do espaço dos dados de entrada, ela pode possuir uma ou mais camadas intermediária, formadas por neurônios perceptron, de tamanhos parametrizados por seu projetista. 
+
+\begin{figure}[!htb]
+	\centering
+	\caption{Formulação do Aprendizado} 
+	\includegraphics[width=0.8\textwidth]{./04-figuras/mlp.png} \\
+	\cite{Braga2007}
+	\label{fig:MLPDraw}
+\end{figure}
+
+A camada de saída em um problema de classificação também pode assumir formatos diferentes, para um problema binário tradicionalmente é utilizado um neurônio do tipo logística conforme equação \ref{eq:act1}.  No caso de problemas de classificação em que a saída pode assumir mais de 2 valores a camada de saída deve possuir o mesmo  número de neurônios que valores de saída possíveis. Caso o projetista deseje ainda uma saída probabilística é ainda possível utilizar uma camada final do tipo \textit{softmax} conforme equação \ref{eq:softmax}, em que $k$ representa cada neurônio da camada de saída \cite{Goodfellow-et-al-2016}.  
+
+\begin{equation}
+\sigma (\mathbf {z} )_{j}={\frac {e^{z_{j}}}{\sum _{k=1}^{K}e^{z_{k}}}}
+\end{equation}
 
 \section{Métodos de Regressão}
+
 \subsection{Regressão Linear}
+O método de regressão linear é uma forma simples de performar aprendizado supervisionado, ainda assim é um ótimo ponto de inicio para servir de \textit{benchmarking} para modelos mais complicados. 
+
+Em suma esse modelo encontra um vetor de pesos $W$ e um bias $b$ que melhor explica uma relação linear entre a entrada $x$ e a saída $y$, conforme a equação \ref{eq:LinearRegressionModel}.
+
+\begin{equation}
+\hat{y}= {x \cdot W^T} + b
+\label{eq:LinearRegressionModel}
+\end{equation}
+
+Para estimar o vetor de pesos e o termo de bias é formulado um problema de otimização que minimiza a soma dos quadrados do erro residual, conforme equação  \ref{eq:LinearOpt}, utilizando o método de mínimos quadrados \cite{James20131}.
+
+\begin{equation}
+\underset {W, b}{\operatorname {arg\,min} }\ \sum_{i=1}^{n} ({y_i -  x_i \cdot W^T- b })^2
+\label{eq:LinearOpt}
+\end{equation}
+
 \subsection{\textit{Ridge Regression}}
+\textit{Ridge Regression} é um modelo de aprendizado muito parecido com a regressão linear, a única diferença é que existe um termo adicional na função objetivo para minimizar a norma dos pesos $w_j \in W$, conforme mostra a formulação \ref{eq:LinearOptRidge} \cite{James20131} .
+
+\begin{equation}
+\underset {W, b}{\operatorname {arg\,min} }\ \sum_{i=1}^{n} ({y_i -  x_i \cdot W^T- b })^2 +  \lambda \sum_{j=1}^{m} {w_j}^2
+\label{eq:LinearOptRidge}
+\end{equation}
+
+O termo $\lambda$ da equção, chamado de termode penalização, não é otimizado pelo método, mas sim, é um parâmetro escolhido pelo projetista. Esse termo é sempre, $\lambda \geq 0$, e quanto maior mais as variáveis não importantes são próximas de $0$ \cite{Wieringen2015}. Um caso especial desse termo é $\lambda = 0$, em que, nessa situação a \textit{ridge regression} se torna exatamente igual a uma regressão linear.
+
+Dessa forma, o método de \textit{ridge regression}, têm uma tendência de generalizar melhor o aprendizado em situações em que existem muitas variáveis de entradas que não adicionam informações ao modelo \cite{Wieringen2015}.
+
 \subsection{\textit{Multilayer Perceptron}}
+Na seção \ref{sssec:MLPClassificationSubSection} foi definida a topologia da rede neural artificial MLP para o problema de classificação, entretanto, esse método também pode ser utilizado para problemas de regressão.
+
+Nessa situação as camadas de entrada e intermediária permanecem exatamente iguais, a única mudanção nescessária é na camda de saída. Para regressão a camada de saída é um único neurônio linear conforme mostrado pela equação \ref{eq:neuronLinear} \cite{Goodfellow-et-al-2016}.  
+
+\begin{equation}
+\phi(z) = z
+\label{eq:neuronLinear}
+\end{equation}
+
