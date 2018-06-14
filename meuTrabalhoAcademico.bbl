@@ -57,6 +57,12 @@ ISBN 0471681822.}
 ISSN 0885-6125.
 Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/BF00994018}.}
 
+\bibitem[Dem{\v{s}}ar 2006]{demvsar2006statistical}
+\abntrefinfo{Dem{\v{s}}ar}{DEM{\v{S}}AR}{2006}
+{DEM{\v{S}}AR, J. Statistical comparisons of classifiers over multiple data
+  sets.
+\textbf{Journal of Machine learning research}, v.~7, n.~Jan, p. 1--30, 2006.}
+
 \bibitem[{GNU Operating System} 2017]{GNUOperatingSystem}
 \abntrefinfo{{GNU Operating System}}{{GNU Operating System}}{2017}
 {{GNU Operating System}. \textbf{{Proprietary Software Is Often Malware}}.

@@ -30,8 +30,9 @@
 \contentsline {subsection}{\numberline {4.4.3}\textit {Multilayer Perceptron}}{20}{subsection.4.4.3}
 \contentsline {chapter}{\chapternumberline {5}Estat\IeC {\'\i }sticas de teste}{21}{chapter.5}
 \contentsline {section}{\numberline {5.1}Defini\IeC {\c c}\IeC {\~a}o de estat\IeC {\'\i }stica de teste}{21}{section.5.1}
-\contentsline {section}{\numberline {5.2}Teste pareado}{21}{section.5.2}
-\contentsline {section}{\numberline {5.3}Testes param\IeC {\'e}trico e n\IeC {\~a}o-param\IeC {\'e}trico}{22}{section.5.3}
+\contentsline {section}{\numberline {5.2}Testes param\IeC {\'e}trico e n\IeC {\~a}o-param\IeC {\'e}trico}{21}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}ANOVA}{22}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Friedman}{22}{subsection.5.2.2}
 \contentsline {chapter}{\chapternumberline {6}O pacote MLAT }{23}{chapter.6}
 \contentsline {section}{\numberline {6.1}M\IeC {\'e}todos Baseline}{24}{section.6.1}
 \contentsline {section}{\numberline {6.2}M\IeC {\'e}tricas de Testes}{24}{section.6.2}

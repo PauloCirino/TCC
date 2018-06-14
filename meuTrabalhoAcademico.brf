@@ -69,8 +69,12 @@
 \backcite {Wieringen2015}{{20}{4.4.2}{equation.4.4.13}}
 \backcite {Goodfellow-et-al-2016}{{20}{4.4.3}{subsection.4.4.3}}
 \backcite {Casella2002}{{21}{5.1}{section.5.1}}
-\backcite {LowryTrem}{{22}{5.3}{section.5.3}}
-\backcite {Casella2002}{{22}{5.3}{section.5.3}}
-\backcite {KernsFerro}{{22}{5.3}{section.5.3}}
+\backcite {LowryTrem}{{21}{5.2}{section.5.2}}
+\backcite {Casella2002}{{21}{5.2}{section.5.2}}
+\backcite {KernsFerro}{{22}{5.2}{section.5.2}}
+\backcite {milone2004estat\IeC {\'\i }stica}{{22}{5.2.1}{subsection.5.2.1}}
+\backcite {demvsar2006statistical}{{22}{5.2.1}{subsection.5.2.1}}
+\backcite {demvsar2006statistical}{{22}{5.2.1}{subsection.5.2.1}}
+\backcite {demvsar2006statistical}{{22}{5.2.2}{subsection.5.2.2}}
 \backcite {lecun}{{24}{6.3}{section.6.3}}
 \backcite {zezim}{{24}{6.3}{section.6.3}}

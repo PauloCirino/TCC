@@ -12,27 +12,31 @@ Uma estatística de teste é o valor que é calculado a partir de dados durante 
 
 Em um teste estatístico, as hipóteses são premissas a serem testadas. Tradicionalmente existem duas hipóteses, a nula e a alternativa, em que o objetivo do teste é conservadoramente rejeitar a hipótese nula à favor da hipótese alternativa. Dessa forma, os testes são feitos tal que o objetivo que deseja-se testar é descrito pela hipótese alternativa.
 
-Os tipos de testes que serão implementados no projeto são os testes pareados paramétricos e não-paramétricos.
-
-\section{Teste pareado}
-Os testes pareados são aqueles utilizados para comparar um conjuntos de medidas de duas populações e avaliar se elas são diferentes. Nessa situação, tradicionalmente a hipótese nula é a diferença entre estatística entre as populações, e a hipótese alternativa pode ser que uma é maior que a outra ou que são diferentes.
-
-Uma vantagem de utilizar os testes pareados, é que eles tornam possível a comparação de múltiplas populações, fazendo vários testes 2 à 2.
-
 \section{Testes paramétrico e não-paramétrico}
-Um teste estatístico paramétrico é aquele que faz suposições sobre os parâmetros da
-distribuição geradora das populações que estão sendo testadas. Desta forma, um teste
-não-paramétrico é aquele que implica a ausência dessas suposições, de forma mais direta é
-aquele que não supões nada sobre os parâmetros da função de distribuição de probabilidade
-geradora \cite{LowryTrem}.
+Um teste estatístico paramétrico é aquele que faz suposições sobre os parâmetros da distribuição geradora das populações que estão sendo testadas. Desta forma, um teste não-paramétrico é aquele que implica a ausência dessas suposições, de forma mais direta é aquele que não supões nada sobre os parâmetros da função de distribuição de probabilidade geradora \cite{LowryTrem}.
 
-Na maioria das situações práticas, os teste não-paramétricos são vantajosos quando as
-populações de teste são muito pequenas, possuem estrutura ordinal, ou são melhor representadas pela mediana. Quase que em todas as demais situações, os testes paramétricos
-se comportam de forma mais confiável e geram resultados com maior potência estatística \cite{Casella2002}.
+Na maioria das situações práticas, os teste não-paramétricos são vantajosos quando as populações de teste são muito pequenas, possuem estrutura ordinal, ou são melhor representadas pela mediana. Quase que em todas as demais situações, os testes paramétricos se comportam de forma mais confiável e geram resultados com maior potência estatística \cite{Casella2002}.
 
-Além disso, os teste paramétricos não estão limitados pela suposição de que a dispersão
-amostral é igual nas populações de teste, diferente da maioria dos não-paramétricos, e
-tampouco funciona apenas para funções geradoras normais. Dado um tamanho amostral
-suficientemente grande, qualquer distribuição pode ser aplicado para um teste que assume
+Além disso, os teste paramétricos não estão limitados pela suposição de que a dispersão amostral é igual nas populações de teste, diferente da maioria dos não-paramétricos, e tampouco funciona apenas para funções geradoras normais. Dado um tamanho amostral suficientemente grande, qualquer distribuição pode ser aplicado para um teste que assume
 normalidade \cite{KernsFerro}.
+
+\subsection{ANOVA}
+O teste estatístico análise de variância, comumente conhecido como ANOVA, permite avaliar se existe uma diferença significativa entre médias de populações diferentes, e se os fatores exercem influência em alguma variável dependente \cite{milone2004estatística}. Nesse teste, a hipótese nula é que as médias populacionais são iguais e a hipótese alternativa é que pleo menos uma é diferente. Além disso, o ANOVA, é chamado de paramétrico pois assume que as amostras são aleatórias e independetes, que as populações seguem distribuição normal e possuem variância iguais.
+
+No caso do teste entre classificadores em bases de dados diferentes, o ANOVA divide a varabilidade total entre variabilidade entre algoritmos, bases de dados e erro residual. Se a variabilidade entre algoritmos é significantemente maior que a variabilidade do erro, é possível rejeitar a hipótese nula afavor da hipótese alteranativa \cite{demvsar2006statistical}.
+
+O resultado do teste ANOVA permite afirmar se todos o algoritmos perforam igualmente ou não, é importante notar que ele não diz respeito qual é melhor ou pior que os demais. Para auxiliar com essa informação exitem dois testes que podem ser aplicados aposteriori, teste de Tukey e teste de Dunnett. Para comparar todos os métodos entre sí é necessário a utilização do teste de Tukey, o teste de Dunnet por outro lado compara todos os métoso com um base \cite{demvsar2006statistical}.
+
+\subsection{Friedman}
+
+O teste de Firedman é um equivalente não paramétrico ao teste ANOVA, em que seu resultado é um rank da performace de todos os métodos. A hipóse nula desse teste é que a diferença entre os pares segue uma distribuição simétrica em torno de 0, e a hipótese alternativa é que não segue essa distribuição.
+
+É importante notar que a principal vantagem do teste de Friendman, quando comparado ao teste ANOVA, é que ele não assume premissas quando a distribuição dos resultados, e mais importe ainda é que ele não assume que as variâncias são iguais. Isso é importante porque não nescessariamente os resultados assumem distribuições normais e tampouco os eles possuem mesma variância para bases diferentes \cite{demvsar2006statistical}.
+
+
+
+
+
+
+
 

@@ -32,14 +32,15 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: ./03-elementos-pos-textuais/myRefs.bib
-Repeated entry---line 279 of file ./03-elementos-pos-textuais/myRefs.bib
+Repeated entry---line 298 of file ./03-elementos-pos-textuais/myRefs.bib
  : @misc{Inc2012
  :              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 393 of file ./03-elementos-pos-textuais/myRefs.bib
+Repeated entry---line 412 of file ./03-elementos-pos-textuais/myRefs.bib
  : @book{Goodfellow-et-al-2016
  :                            ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "milone2004estatística"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Too many commas in name 1 of "Braga, A. P., e Carvalho, A. C. P. L. F., e Ludemir, T. B." for entry Braga2007
 while executing---line 2091 of file abntex2-alf.bst
@@ -97,45 +98,45 @@ while executing---line 2146 of file abntex2-alf.bst
 | Em caso de dÃºvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 41 entries,
+You've used 42 entries,
             6714 wiz_defined-function locations,
-            1443 strings with 16997 characters,
-and the built_in function-call counts, 49231 in all, are:
-= -- 5580
-> -- 957
-< -- 1147
-+ -- 1525
-- -- 296
-* -- 3029
-:= -- 6090
-add.period$ -- 148
-call.type$ -- 42
-change.case$ -- 345
-chr.to.int$ -- 68
-cite$ -- 34
-duplicate$ -- 4626
-empty$ -- 2337
-format.name$ -- 1385
-if$ -- 10162
+            1451 strings with 17169 characters,
+and the built_in function-call counts, 49902 in all, are:
+= -- 5623
+> -- 973
+< -- 1151
++ -- 1530
+- -- 301
+* -- 3077
+:= -- 6182
+add.period$ -- 151
+call.type$ -- 43
+change.case$ -- 352
+chr.to.int$ -- 72
+cite$ -- 35
+duplicate$ -- 4666
+empty$ -- 2392
+format.name$ -- 1408
+if$ -- 10316
 int.to.chr$ -- 6
 int.to.str$ -- 3
-missing$ -- 691
-newline$ -- 177
-num.names$ -- 170
-pop$ -- 887
+missing$ -- 708
+newline$ -- 182
+num.names$ -- 175
+pop$ -- 905
 preamble$ -- 1
-purify$ -- 150
+purify$ -- 153
 quote$ -- 0
-skip$ -- 5002
+skip$ -- 5037
 stack$ -- 1
-substring$ -- 1910
-swap$ -- 1657
-text.length$ -- 34
+substring$ -- 1947
+swap$ -- 1678
+text.length$ -- 37
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 1
 warning$ -- 0
-while$ -- 237
+while$ -- 246
 width$ -- 0
-write$ -- 533
+write$ -- 550
 (There were 26 error messages)
