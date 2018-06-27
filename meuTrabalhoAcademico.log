@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.5)  14 JUN 2018 17:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.5)  23 JUN 2018 10:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1549,11 +1549,8 @@ LaTeX Warning: Unused global option(s):
 (./02-elementos-textuais/LinguagemR.aux)
 (./02-elementos-textuais/AprendizadoDeMaquinas.aux)
 (./02-elementos-textuais/EstatisticasDeTeste.aux)
-(./02-elementos-textuais/OPacote.aux
-
-LaTeX Warning: Label `fig:BuildingMLModel' multiply defined.
-
-) (./03-elementos-pos-textuais/referencias.aux)
+(./02-elementos-textuais/OPacote.aux)
+(./03-elementos-pos-textuais/referencias.aux)
 (./03-elementos-pos-textuais/glossario.aux)
 (./03-elementos-pos-textuais/apendices.aux)
 (./03-elementos-pos-textuais/indiceRemissivo.aux))
@@ -1935,9 +1932,9 @@ l.39
 l.39 
       <./04-figuras/MLForm.png> <./04-figuras/MLProblems.png>] [14]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 80.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 84.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 13.67995pt on input line 80.
+(Font)              scaled to size 13.67995pt on input line 84.
 
 (./07-algoritmos/knn.tex
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <12> not available
@@ -1954,25 +1951,21 @@ LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
 l.92 
      ]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 103.
+(Font)              scaled to size 7.59998pt on input line 107.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 103.
+(Font)              scaled to size 5.69998pt on input line 107.
  [16] [17] <./04-figuras/mlp.png, id=496, 468.75125pt x 351.3125pt>
 File: ./04-figuras/mlp.png Graphic file (type png)
 
 <use ./04-figuras/mlp.png>
-Package pdftex.def Info: ./04-figuras/mlp.png used on input line 156.
+Package pdftex.def Info: ./04-figuras/mlp.png used on input line 160.
 (pdftex.def)             Requested size: 364.00139pt x 272.80579pt.
-
-
-LaTeX Warning: Reference `eq:softmax' on page 18 undefined on input line 161.
-
-[18pdfTeX warning (ext4): destination with the same identifier (name{figure.4.5
-}) has been already used, duplicate ignored
+ [18pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.165 \end{equation}
+l.170 \end{equation}
                      <./04-figuras/mlp.png>] [19]) [20]
 \openout2 = `./02-elementos-textuais/EstatisticasDeTeste.aux'.
 
@@ -1981,16 +1974,12 @@ l.165 \end{equation}
 
 
 
-]
-
-LaTeX Warning: Citation `milone2004estat�stica' on page 22 undefined on input l
-ine 24.
-
-) [22]
+]) [22]
 \openout2 = `./02-elementos-textuais/OPacote.aux'.
 
- (./02-elementos-textuais/OPacote.tex
-<./04-figuras/BuildingNewMethod.png, id=567, 794.97pt x 614.295pt>
+
+(./02-elementos-textuais/OPacote.tex
+<./04-figuras/BuildingNewMethod.png, id=577, 794.97pt x 614.295pt>
 File: ./04-figuras/BuildingNewMethod.png Graphic file (type png)
 
 <use ./04-figuras/BuildingNewMethod.png>
@@ -2009,12 +1998,15 @@ has been already used, duplicate ignored
 l.20 N
       esse capítulo será descrito cada uma dessas etapas e como, o pacote ...
  <./04-figuras/BuildingNewMethod.png>] [24]
-<./04-figuras/UseCase.png, id=590, 686.565pt x 343.7643pt>
+<./04-figuras/UseCase.png, id=601, 686.565pt x 343.7643pt>
 File: ./04-figuras/UseCase.png Graphic file (type png)
 
 <use ./04-figuras/UseCase.png>
-Package pdftex.def Info: ./04-figuras/UseCase.png used on input line 54.
+Package pdftex.def Info: ./04-figuras/UseCase.png used on input line 55.
 (pdftex.def)             Requested size: 455.0pt x 227.8188pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
@@ -2030,9 +2022,10 @@ File: lstlang3.sty 2015/06/04 1.6 listings language file
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.96 #
-      ## Coloca minha funcao no padrao do pacote <./04-figuras/UseCase.png>]
-Overfull \hbox (37.48303pt too wide) in paragraph at lines 102--104
+l.88 aux_
+         Table <- tabulate(match(Y_iter_aux,  unique_y)) <./04-figuras/UseCase.
+png>]
+Overfull \hbox (37.48303pt too wide) in paragraph at lines 106--108
 [][][][][][][][][][][][][][][][][] 
  []
 
@@ -2095,7 +2088,7 @@ _ }story . html ? tid = pm{\ _ }politics{\ _
 
 
 ]
-<manual.pdf, id=765, 597.50829pt x 845.0471pt>
+<manual.pdf, id=777, 597.50829pt x 845.0471pt>
 File: manual.pdf Graphic file (type pdf)
  <use manual.pdf>
 Package pdftex.def Info: manual.pdf used on input line 19.
@@ -2105,7 +2098,7 @@ File: manual.pdf Graphic file (type pdf)
 <use manual.pdf>
 Package pdftex.def Info: manual.pdf used on input line 19.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
- <manual.pdf, id=768, page=1, 597.50829pt x 845.0471pt>
+ <manual.pdf, id=780, page=1, 597.50829pt x 845.0471pt>
 File: manual.pdf Graphic file (type pdf)
 
 <use manual.pdf, page 1>
@@ -2132,7 +2125,7 @@ File: manual.pdf Graphic file (type pdf)
 Package pdftex.def Info: manual.pdf, page1 used on input line 19.
 (pdftex.def)             Requested size: 784.6471pt x 1109.71475pt.
 
-[33 <./manual.pdf>] <manual.pdf, id=798, page=2, 597.50829pt x 845.0471pt>
+[33 <./manual.pdf>] <manual.pdf, id=811, page=2, 597.50829pt x 845.0471pt>
 File: manual.pdf Graphic file (type pdf)
 
 <use manual.pdf, page 2>
@@ -2147,7 +2140,7 @@ File: manual.pdf Graphic file (type pdf)
 Package pdftex.def Info: manual.pdf, page2 used on input line 19.
 (pdftex.def)             Requested size: 784.6471pt x 1109.71475pt.
 
-[34 <./manual.pdf>] <manual.pdf, id=813, page=3, 597.50829pt x 845.0471pt>
+[34 <./manual.pdf>] <manual.pdf, id=826, page=3, 597.50829pt x 845.0471pt>
 File: manual.pdf Graphic file (type pdf)
 
 <use manual.pdf, page 3>
@@ -2162,7 +2155,7 @@ File: manual.pdf Graphic file (type pdf)
 Package pdftex.def Info: manual.pdf, page3 used on input line 19.
 (pdftex.def)             Requested size: 784.6471pt x 1109.71475pt.
 
-[35 <./manual.pdf>] <manual.pdf, id=819, page=4, 597.50829pt x 845.0471pt>
+[35 <./manual.pdf>] <manual.pdf, id=831, page=4, 597.50829pt x 845.0471pt>
 File: manual.pdf Graphic file (type pdf)
 
 <use manual.pdf, page 4>
@@ -2177,7 +2170,7 @@ File: manual.pdf Graphic file (type pdf)
 Package pdftex.def Info: manual.pdf, page4 used on input line 19.
 (pdftex.def)             Requested size: 784.6471pt x 1109.71475pt.
 
-[36 <./manual.pdf>] <manual.pdf, id=827, page=5, 597.50829pt x 845.0471pt>
+[36 <./manual.pdf>] <manual.pdf, id=839, page=5, 597.50829pt x 845.0471pt>
 File: manual.pdf Graphic file (type pdf)
 
 <use manual.pdf, page 5>
@@ -2192,7 +2185,7 @@ File: manual.pdf Graphic file (type pdf)
 Package pdftex.def Info: manual.pdf, page5 used on input line 19.
 (pdftex.def)             Requested size: 784.6471pt x 1109.71475pt.
 
-[37 <./manual.pdf>] <manual.pdf, id=833, page=6, 597.50829pt x 845.0471pt>
+[37 <./manual.pdf>] <manual.pdf, id=845, page=6, 597.50829pt x 845.0471pt>
 File: manual.pdf Graphic file (type pdf)
 
 <use manual.pdf, page 6>
@@ -2207,7 +2200,7 @@ File: manual.pdf Graphic file (type pdf)
 Package pdftex.def Info: manual.pdf, page6 used on input line 19.
 (pdftex.def)             Requested size: 784.6471pt x 1109.71475pt.
 
-[38 <./manual.pdf>] <manual.pdf, id=838, page=7, 597.50829pt x 845.0471pt>
+[38 <./manual.pdf>] <manual.pdf, id=850, page=7, 597.50829pt x 845.0471pt>
 File: manual.pdf Graphic file (type pdf)
 
 <use manual.pdf, page 7>
@@ -2222,7 +2215,7 @@ File: manual.pdf Graphic file (type pdf)
 Package pdftex.def Info: manual.pdf, page7 used on input line 19.
 (pdftex.def)             Requested size: 784.6471pt x 1109.71475pt.
 
-[39 <./manual.pdf>] <manual.pdf, id=843, page=8, 597.50829pt x 845.0471pt>
+[39 <./manual.pdf>] <manual.pdf, id=855, page=8, 597.50829pt x 845.0471pt>
 File: manual.pdf Graphic file (type pdf)
 
 <use manual.pdf, page 8>
@@ -2237,7 +2230,7 @@ File: manual.pdf Graphic file (type pdf)
 Package pdftex.def Info: manual.pdf, page8 used on input line 19.
 (pdftex.def)             Requested size: 784.6471pt x 1109.71475pt.
 
-[40 <./manual.pdf>] <manual.pdf, id=848, page=9, 597.50829pt x 845.0471pt>
+[40 <./manual.pdf>] <manual.pdf, id=860, page=9, 597.50829pt x 845.0471pt>
 File: manual.pdf Graphic file (type pdf)
 
 <use manual.pdf, page 9>
@@ -2252,7 +2245,7 @@ File: manual.pdf Graphic file (type pdf)
 Package pdftex.def Info: manual.pdf, page9 used on input line 19.
 (pdftex.def)             Requested size: 784.6471pt x 1109.71475pt.
 
-[41 <./manual.pdf>] <manual.pdf, id=853, page=10, 597.50829pt x 845.0471pt>
+[41 <./manual.pdf>] <manual.pdf, id=865, page=10, 597.50829pt x 845.0471pt>
 File: manual.pdf Graphic file (type pdf)
 
 <use manual.pdf, page 10>
@@ -2267,7 +2260,7 @@ File: manual.pdf Graphic file (type pdf)
 Package pdftex.def Info: manual.pdf, page10 used on input line 19.
 (pdftex.def)             Requested size: 784.6471pt x 1109.71475pt.
 
-[42 <./manual.pdf>] <manual.pdf, id=858, page=11, 597.50829pt x 845.0471pt>
+[42 <./manual.pdf>] <manual.pdf, id=870, page=11, 597.50829pt x 845.0471pt>
 File: manual.pdf Graphic file (type pdf)
 
 <use manual.pdf, page 11>
@@ -2282,7 +2275,7 @@ File: manual.pdf Graphic file (type pdf)
 Package pdftex.def Info: manual.pdf, page11 used on input line 19.
 (pdftex.def)             Requested size: 784.6471pt x 1109.71475pt.
 
-[43 <./manual.pdf>] <manual.pdf, id=864, page=12, 597.50829pt x 845.0471pt>
+[43 <./manual.pdf>] <manual.pdf, id=876, page=12, 597.50829pt x 845.0471pt>
 File: manual.pdf Graphic file (type pdf)
 
 <use manual.pdf, page 12>
@@ -2297,7 +2290,7 @@ File: manual.pdf Graphic file (type pdf)
 Package pdftex.def Info: manual.pdf, page12 used on input line 19.
 (pdftex.def)             Requested size: 784.6471pt x 1109.71475pt.
 
-[44 <./manual.pdf>] <manual.pdf, id=869, page=13, 597.50829pt x 845.0471pt>
+[44 <./manual.pdf>] <manual.pdf, id=881, page=13, 597.50829pt x 845.0471pt>
 File: manual.pdf Graphic file (type pdf)
 
 <use manual.pdf, page 13>
@@ -2312,7 +2305,7 @@ File: manual.pdf Graphic file (type pdf)
 Package pdftex.def Info: manual.pdf, page13 used on input line 19.
 (pdftex.def)             Requested size: 784.6471pt x 1109.71475pt.
 
-[45 <./manual.pdf>] <manual.pdf, id=874, page=14, 597.50829pt x 845.0471pt>
+[45 <./manual.pdf>] <manual.pdf, id=886, page=14, 597.50829pt x 845.0471pt>
 File: manual.pdf Graphic file (type pdf)
 
 <use manual.pdf, page 14>
@@ -2365,19 +2358,11 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 207.
 (./03-elementos-pos-textuais/indiceRemissivo.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 207.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 207.
+Package rerunfilecheck Info: File `meuTrabalhoAcademico.brf' has not changed.
+(rerunfilecheck)             Checksum: CBD78BA4777C50D2DC221396A3A62A81;4259.
 
 
-Package rerunfilecheck Warning: File `meuTrabalhoAcademico.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `meuTrabalhoAcademico.brf':
-(rerunfilecheck)             Before: 3B2EB503041340A6D8E0603CA422F59E;4162
-(rerunfilecheck)             After:  4AB30060F7158716C7CB27E81EE7A4F9;4228.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 207.
  )
@@ -2386,13 +2371,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 207.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 30095 strings out of 492995
- 513790 string characters out of 6132704
- 738392 words of memory out of 5000000
- 32424 multiletter control sequences out of 15000+600000
- 106985 words of font info for 290 fonts, out of 8000000 for 9000
+ 30091 strings out of 492995
+ 513644 string characters out of 6132704
+ 740267 words of memory out of 5000000
+ 32418 multiletter control sequences out of 15000+600000
+ 107034 words of font info for 291 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 60i,20n,76p,767b,6733s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,20n,76p,767b,6730s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc
 }</usr/local/texlive/2017/texmf-dist/fonts/type1/public/inconsolata/Inconsolata
 -zi4r.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
@@ -2414,10 +2399,10 @@ ve/2017/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017
 s/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/ur
 w/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/ut
 mri8a.pfb>
-Output written on meuTrabalhoAcademico.pdf (58 pages, 847388 bytes).
+Output written on meuTrabalhoAcademico.pdf (58 pages, 848948 bytes).
 PDF statistics:
- 1148 PDF objects out of 1200 (max. 8388607)
- 1023 compressed objects within 11 object streams
+ 1160 PDF objects out of 1200 (max. 8388607)
+ 1035 compressed objects within 11 object streams
  239 named destinations out of 1000 (max. 500000)
  46642 words of extra memory for PDF output out of 51595 (max. 10000000)
 

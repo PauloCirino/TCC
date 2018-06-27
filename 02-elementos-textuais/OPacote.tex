@@ -48,14 +48,18 @@ A etapa de análise dos resultados é o momento em que o projetista deve escolhe
 
 
 \section{Uso do MLAT}
+Para realizar os testes com o pacote MLAT o usuário deve, além de implementar seu novo método, ele deve informar outras informações ao software, em verde na imagem \ref{fig:BuildingMLModel2}.
 
-\begin{figure}[!htb]
+\begin{figure}[!h]
 	\centering
 	\includegraphics[width=\textwidth]{./04-figuras/UseCase.png}
 	\caption{Utilização do Pacote MLAT.} 
-	\label{fig:BuildingMLModel}
+	\label{fig:BuildingMLModel2}
 \end{figure}
 
+Para informar as bases de dados e as métricas de teste, o usuário pode usar funções auxiliares que utilizam todas as opções disponíveis, ou ainda informar as opções desejadas. Os métodos baseline podem ser implementados pelos usuários, fornecidos pelo pacote com funções auxiliares ou ainda utilizar uma função auxiliar para todas as opções possíveis. 
+
+Por fim, para parametrizar os métodos o usuário deve fornecer uma lista criada com funções auxiliares, em que informa todos os possíveis valores de cada parâmetro. Abaixo segue a implementação em R do uso do pacote MLAT.
 
 \begin{lstlisting}[language=R]
 
